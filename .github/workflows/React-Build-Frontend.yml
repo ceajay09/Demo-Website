@@ -70,7 +70,7 @@ jobs:
       - name: Build, tag, and push docker image to Amazon ECR
         env:
           REGISTRY: ${{ steps.login-ecr.outputs.registry }}
-          REPOSITORY: my-app_frontend
+          REPOSITORY: ewaluli-frontend-website
           #IMAGE_TAG: ${{ github.sha }}
           IMAGE_TAG: dev
         run: |
