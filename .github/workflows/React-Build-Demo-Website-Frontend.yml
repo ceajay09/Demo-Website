@@ -79,6 +79,7 @@ jobs:
           #IMAGE_TAG: ${{ github.sha }}
           IMAGE_TAG: dev
         run: |
+          cd My-App_Frontend
           ls -la
           echo $REGISTRY/$REPOSITORY:$IMAGE_TAG
           docker build -t $REGISTRY/$REPOSITORY:$IMAGE_TAG .
