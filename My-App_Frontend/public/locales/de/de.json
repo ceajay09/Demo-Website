@@ -115,7 +115,7 @@
     "contactInformation": {
       "title": "Kontaktinformationen",
       "owner": "Inhaber:",
-      "ownerName": "César Jaquiéry",
+      "ownerName": "Vorname Nachname",
       "email": "E-Mail:",
       "emailAddress": "c.jaquiery@gmail.com"
     },
@@ -125,7 +125,7 @@
     }
   },
   "layout": {
-    "headerTitle": "Césars Webseite",
+    "headerTitle": "DEMO Webseite",
     "sections": {
       "home": "Startseite",
       "aboutMe": "Über mich",
