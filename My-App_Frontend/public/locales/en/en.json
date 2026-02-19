@@ -14,7 +14,7 @@
     "downloadCV": "DOWNLOAD CV",
     "interests": "Interests",
     "interestList": "Small private IT projects, Climbing, Hiking, Water sports, Diving",
-    "hello": "Hello, it's me César",
+    "hello": "Hello",
     "techJourney": "How did I begin my tech journey?",
     "techJourneyDetail": "From a young age, I have been fascinated by the world of IT. My experience as a working student at a renowned pharmaceutical company enhanced my understanding of modern technologies and process optimization, deepening my interest in the field. During my studies in Business Informatics, where I focused on programming modules, I actively engaged in practical projects with companies as clients, eagerly taking on responsibilities and applying theoretical knowledge in real-world settings. With my employer Opacc, I can take on new responsibilities and deepen my programming experience in the use of scripts.",
     "keySkills": "What key skills have I developed?",
@@ -117,7 +117,7 @@
     "contactInformation": {
       "title": "Contact Information",
       "owner": "Owner:",
-      "ownerName": "César Jaquiéry",
+      "ownerName": "surname name",
       "email": "Email:",
       "emailAddress": "c.jaquiery@gmail.com"
     },
@@ -127,7 +127,7 @@
     }
   },
   "layout": {
-    "headerTitle": "César's Webpage",
+    "headerTitle": "DEMO Webpage",
     "sections": {
       "home": "Home",
       "aboutMe": "About Me",
