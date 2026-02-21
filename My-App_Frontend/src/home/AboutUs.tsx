@@ -16,7 +16,7 @@ const practicalProjectURL = "https://studierendenprojekte.wirtschaft.fhnw.ch/vie
 const bachelorProjectURL = "https://studierendenprojekte.wirtschaft.fhnw.ch/view/2019"
 
 
-export default function AboutMe() {
+export default function AboutUs() {
   const { t } = useTranslation();
   const [showNumber, setShowNumber] = useState(false);
 
@@ -29,7 +29,7 @@ export default function AboutMe() {
       <main>
         <Container maxWidth="lg">
           <Typography variant="h3" align="center" paddingTop={2} gutterBottom>
-            {t('aboutMe.title')}
+            {t('aboutUs.title')}
           </Typography>
           <Grid container spacing={3}>
             <Grid item xs={12} md={5}>
@@ -37,53 +37,53 @@ export default function AboutMe() {
                 <img src={`/assets/Passfoto.jpg`} alt="Image of myself" style={{ width: '100%', height: 'auto' }} />
               </Paper>
               <Paper elevation={4} sx={{ p: 2, mb: 2 }}>
-                <Typography variant="h6" gutterBottom>{t('aboutMe.contactDetails')}</Typography>
+                <Typography variant="h6" gutterBottom>{t('aboutUs.contactDetails')}</Typography>
                 <Typography component="div" variant="body1" sx={{ display: 'flex', justifyContent: 'space-between' }}>
-                  <span>{t('aboutMe.qualification')}</span>
-                  <span>{t('aboutMe.qualificationDetail')}</span>
+                  <span>{t('aboutUs.qualification')}</span>
+                  <span>{t('aboutUs.qualificationDetail')}</span>
                 </Typography>
                 <Typography component="div" variant="body1" sx={{ display: 'flex', justifyContent: 'space-between' }}>
-                  <span>{t('aboutMe.age')}</span>
+                  <span>{t('aboutUs.age')}</span>
                   <span>28</span>
                 </Typography>
                 <Typography component="div" variant="body1" sx={{ display: 'flex', justifyContent: 'space-between' }}>
                   <Typography variant="body1" component="span">
-                    {t('aboutMe.phoneNumber')}
+                    {t('aboutUs.phoneNumber')}
                   </Typography>
                   {showNumber ? (
                     <Typography variant="body1" component="span">
-                      +41 76 759 83 45
+                      +41 xx xx xx
                     </Typography>
                   ) : (
                     <Button onClick={handleClick}>
                       <Typography component="div" variant="body1" sx={{ display: 'flex', justifyContent: 'space-between' }}>
-                        {t('aboutMe.showNumber')}
+                        {t('aboutUs.showNumber')}
                       </Typography>
                     </Button>
                   )}
                 </Typography>
                 <Typography component="div" variant="body1" sx={{ display: 'flex', justifyContent: 'space-between' }}>
-                  <span>{t('aboutMe.email')}</span>
-                  <Link href="mailto:c.jaquiery@gmail.com">
-                    c.jaquiery@gmail.com
+                  <span>{t('aboutUs.email')}</span>
+                  <Link href="mailto:xxxxx@gmail.com">
+                    xxxx@gmail.com
                   </Link>
                 </Typography>
                 <Typography component="div" variant="body1" sx={{ display: 'flex', justifyContent: 'space-between' }}>
-                  <span>{t('aboutMe.basedIn')}</span>
-                  <span>{t('aboutMe.basedInDetail')}</span>
+                  <span>{t('aboutUs.basedIn')}</span>
+                  <span>{t('aboutUs.basedInDetail')}</span>
                 </Typography>
-                <Button
+                {/* <Button
                   variant="contained"
                   startIcon={<DownloadIcon />}
                   component="a"
                   href="/api/downloadPDF/CV_Jaquiery_Cesar.pdf"
                   sx={{ marginTop: 2 }}
                 >
-                  {t('aboutMe.downloadCV')}
-                </Button>
+                  {t('aboutUs.downloadCV')}
+                </Button> */}
               </Paper>
               {/* <Paper elevation={4} sx={{ p: 2, mb: 2 }}>
-                <Typography variant="h6" gutterBottom>{t('aboutMe.interests')}</Typography>
+                <Typography variant="h6" gutterBottom>{t('aboutUs.interests')}</Typography>
                 <Typography variant="body1"><ul>
                   <li>Small private IT projects</li>
                   <li>Climbing</li>
@@ -94,10 +94,10 @@ export default function AboutMe() {
               </Paper> */}
               
               <Paper elevation={4} sx={{ p: 2, mb: 2 }}>
-                <Typography variant="h6" gutterBottom>{t('aboutMe.interests')}</Typography>
+                <Typography variant="h6" gutterBottom>{t('aboutUs.interests')}</Typography>
                 <Typography variant="body1" component="div">
                   <ul>
-                    {t('aboutMe.interestList').split(', ').map((interest) => (
+                    {t('aboutUs.interestList').split(', ').map((interest) => (
                       <li key={interest}>{interest}</li>
                     ))}
                   </ul>
@@ -106,7 +106,7 @@ export default function AboutMe() {
             </Grid>
             <Grid item xs={12} md={7}>
               <Paper elevation={4} sx={{ p: 2, mb: 2 }}>
-                <Typography variant="h6" gutterBottom>{t('aboutMe.hello')}</Typography>
+                <Typography variant="h6" gutterBottom>{t('aboutUs.hello')}</Typography>
                 <Accordion sx={{ p: 0, mb: 2 }}>
                   <AccordionSummary
                     expandIcon={<ExpandMoreIcon />}
@@ -114,12 +114,12 @@ export default function AboutMe() {
                     id="panel1-header"
                   >
                     <Typography variant="body1">
-                      {t('aboutMe.techJourney')}
+                      {t('aboutUs.techJourney')}
                     </Typography>
                   </AccordionSummary>
                   <AccordionDetails>
                     <Typography variant="body2">
-                      {t('aboutMe.techJourneyDetail')}
+                      {t('aboutUs.techJourneyDetail')}
                     </Typography>
                   </AccordionDetails>
                 </Accordion>
@@ -130,12 +130,12 @@ export default function AboutMe() {
                     id="panel2-header"
                   >
                     <Typography variant="body1">
-                      {t('aboutMe.keySkills')}
+                      {t('aboutUs.keySkills')}
                     </Typography>
                   </AccordionSummary>
                   <AccordionDetails>
                     <Typography variant="body2">
-                      {t('aboutMe.keySkillsDetail')}
+                      {t('aboutUs.keySkillsDetail')}
                     </Typography>
                   </AccordionDetails>
                 </Accordion>
@@ -146,12 +146,12 @@ export default function AboutMe() {
                     id="panel1-header"
                   >
                     <Typography variant="body1">
-                      {t('aboutMe.continuousLearning')}
+                      {t('aboutUs.continuousLearning')}
                     </Typography>
                   </AccordionSummary>
                   <AccordionDetails>
                     <Typography variant="body2">
-                      {t('aboutMe.continuousLearningDetail')}
+                      {t('aboutUs.continuousLearningDetail')}
                     </Typography>
                   </AccordionDetails>
                 </Accordion>
@@ -162,51 +162,51 @@ export default function AboutMe() {
                     id="panel2-header"
                   >
                     <Typography variant="body1">
-                      {t('aboutMe.careerGoals')}<br />
+                      {t('aboutUs.careerGoals')}<br />
                     </Typography>
                   </AccordionSummary>
                   <AccordionDetails>
                     <Typography variant="body2">
-                      {t('aboutMe.careerGoalsDetail')}
+                      {t('aboutUs.careerGoalsDetail')}
                     </Typography>
                   </AccordionDetails>
                 </Accordion>
               </Paper>
               <Paper elevation={4} sx={{ p: 2, mb: 2 }}>
-                <Typography variant="h6" gutterBottom>{t('aboutMe.projects')}</Typography>
+                <Typography variant="h6" gutterBottom>{t('aboutUs.projects')}</Typography>
                 <Typography variant="subtitle2" gutterBottom>
-                  {t('aboutMe.bachelorThesis')}
+                  {t('aboutUs.bachelorThesis')}
                 </Typography>
                 <Typography variant="body2" gutterBottom>
-                  {t('aboutMe.bachelorThesisDetail')}
+                  {t('aboutUs.bachelorThesisDetail')}
                 </Typography>
                 <Typography variant="body2" component="div">
                   <ul>
-                    {t('aboutMe.bachelorThesisTasks').split(', ').map((task) => (
+                    {t('aboutUs.bachelorThesisTasks').split(', ').map((task) => (
                       <li key={task}>{task}</li>
                     ))}
                   </ul>
                 </Typography>
-                <Link variant="body2" href={practicalProjectURL} target="_blank" sx={{ zIndex: 2 }}>
-                  {t('aboutMe.moreDetails')}
-                </Link>
+                {/* <Link variant="body2" href={practicalProjectURL} target="_blank" sx={{ zIndex: 2 }}>
+                  {t('aboutUs.moreDetails')}
+                </Link> */}
                 <br /><br />
                 <Typography variant="subtitle2" gutterBottom>
-                  {t('aboutMe.practicalProject')}
+                  {t('aboutUs.practicalProject')}
                 </Typography>
                 <Typography variant="body2" gutterBottom>
-                  {t('aboutMe.practicalProjectDetail')}
+                  {t('aboutUs.practicalProjectDetail')}
                 </Typography>
                 <Typography variant="body2" component="div">
                   <ul>
-                    {t('aboutMe.practicalProjectTasks').split(', ').map((task) => (
+                    {t('aboutUs.practicalProjectTasks').split(', ').map((task) => (
                       <li key={task}>{task}</li>
                     ))}
                   </ul>
                 </Typography>
-                <Link variant="body2" href={bachelorProjectURL} target="_blank" sx={{ zIndex: 2 }}>
-                  {t('aboutMe.moreDetails')}
-                </Link>
+                {/* <Link variant="body2" href={bachelorProjectURL} target="_blank" sx={{ zIndex: 2 }}>
+                  {t('aboutUs.moreDetails')}
+                </Link> */}
               </Paper>
               <Grid item xs={12} md={4}>
               </Grid>

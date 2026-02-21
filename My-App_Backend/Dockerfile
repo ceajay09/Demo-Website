@@ -7,6 +7,6 @@ ENV DB_INSTANCE=null
 ENV DB_PASS=null
 ENV PROFILE=default
 ENV SPRING_LOG_LEVEL=INFO
-ENV APP_PORT=8081
+ENV APP_PORT=8091
 EXPOSE ${APP_PORT}/tcp
 ENTRYPOINT ["java", "-Dspring.profiles.active=${PROFILE}", "-jar","/my-app.jar"]

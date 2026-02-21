@@ -1,5 +1,5 @@
 {
-  "aboutMe": {
+  "aboutUs": {
     "title": "Über Mich",
     "contactDetails": "Kontaktdaten",
     "qualification": "Qualifikation:",
@@ -46,15 +46,26 @@
       "title": "Mein beruflicher Werdegang",
       "date": "30. Dez",
       "description": "ERP-Projektleiter mit Fokus auf Prozessanpassung und Programmierung. Erfahren Sie mehr über meine Fähigkeiten.",
-      "imageLabel": "Screenshot AboutMe-Tab"
+      "imageLabel": "Screenshot AboutUs-Tab"
     },
     "sidebar": {
       "title": "Wer bin ich",
       "description": "28-jähriger Wirtschaftsinformatik-Absolvent (FH) und ERP-Projektleiter mit grossem Interesse an der Technik. Ich bin motiviert neues zu Lernen, Verantwortung zu übernehmen und neue Möglichkeiten zu nutzen."
-    }
-
+    },
+    "leftBox": {
+      "title": "featuredWorkTitle"
+    },
+    "midBox": {
+      "title": "midBoxTitle"
+    },
+    "rightBox": {
+      "topText": "rightBox topText",
+      "bottomText": "rightBox bottomText"
+    },
+    "introText": "introText",
+    "outroText": "outroText"
   }, 
-  "aboutThisWebsite": {
+  "services": {
     "title": "Über diese Website",
     "introduction": {
       "title": "Einführung",
@@ -106,7 +117,7 @@
       "text": "Diese Webseite, die für Robustheit, Sicherheit und Reaktionsfähigkeit entwickelt wurde, nutzt moderne Technologie und bewährte Methoden in der Softwareentwicklung. Sie verkörpert meine Fähigkeiten und Motivation als Softwareentwickler, berufliche Herausforderungen im Technologiebereich zu meistern."
     }
   },
-  "imprint": {
+  "realEstateForRent": {
     "title": "Impressum",
     "purpose": {
       "title": "Zweck der Website",
@@ -117,7 +128,7 @@
       "owner": "Inhaber:",
       "ownerName": "Vorname Nachname",
       "email": "E-Mail:",
-      "emailAddress": "c.jaquiery@gmail.com"
+      "emailAddress": "xxxx@gmail.com"
     },
     "disclaimer": {
       "title": "Haftungsausschluss",
@@ -125,12 +136,12 @@
     }
   },
   "layout": {
-    "headerTitle": "DEMO Webseite",
+    "headerTitle": "basel-homefixer",
     "sections": {
       "home": "Startseite",
-      "aboutMe": "Über mich",
-      "aboutThisWebsite": "Über diese Website",
-      "imprint": "Impressum"
+      "aboutUs": "Über uns",
+      "services": "Services",
+      "realEstateForRent": "Immobilienvermietung"
     },
     "footer": {
       "title": "Kontakt",

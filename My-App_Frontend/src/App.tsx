@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 import { Login } from "./authenticated/Login";
 import { Register } from "./authenticated/Register";
 import { Dashboard } from "./authenticated/Dashboard";
-import Blog from './blog/Blog';
+import Blog from './home/Home';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Imprint from './blog/Imprint';
-import AboutMe from './blog/AboutMe';
-import AboutThisWebsite from './blog/AboutThisWebsite';
-import TechInsights from './blog/TechInsights';
-import LatestPosts from './blog/LatestPosts';
-import ContactMe from './blog/ContactMe';
+import RealEstateForRent from './home/RealEstateForRent';
+import AboutUs from './home/AboutUs';
+import Services from './home/Services';
+import TechInsights from './home/TechInsights';
+import LatestPosts from './home/LatestPosts';
+import ContactUs from './home/ContactUs';
 
 const App: React.FC = () => {
   return (
@@ -17,12 +17,12 @@ const App: React.FC = () => {
       <Routes>
         <Route path="/blog" element={<Blog />} />
         <Route path="/" element={<Blog />} />
-        <Route path="/imprint" element={<Imprint />} />
-        <Route path="/aboutMe" element={<AboutMe />} />
-        <Route path="/aboutThisWebsite" element={<AboutThisWebsite />} />
+        <Route path="/realEstateForRent" element={<RealEstateForRent />} />
+        <Route path="/aboutUs" element={<AboutUs />} />
+        <Route path="/services" element={<Services />} />
         <Route path="/techInsights" element={<TechInsights />} />
         <Route path="/latestPosts" element={<LatestPosts />} />
-        <Route path="/contactMe" element={<ContactMe />} />
+        <Route path="/contactUs" element={<ContactUs />} />
       </Routes>
     </div>
   );

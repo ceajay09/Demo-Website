@@ -5,12 +5,12 @@ import Layout from './Layout';
 
 const theme = createTheme();
 
-export default function TechInsights() {
+export default function LatestPosts() { //TODO: Only Template
   return (
     <Layout>
       <Container maxWidth="lg">
         <Typography variant="h3" align="center" paddingTop={2} gutterBottom>
-          TechInsights
+        LatestPosts
         </Typography>
 
         <Box sx={{ my: 4 }}>
@@ -30,14 +30,14 @@ export default function TechInsights() {
               Contact Information
             </Typography>
             <Grid container spacing={2}>
-              <Grid item xs={1}>
+            <Grid item xs={1}>
                 <Typography variant="subtitle1" paragraph sx={{ fontStyle: 'italic' }}>
                   Owner:
                 </Typography>
               </Grid>
               <Grid item xs={11}>
                 <Typography variant="subtitle1" paragraph sx={{ fontStyle: 'italic' }}>
-                  César Jaquiéry
+                  Surename Name
                 </Typography>
               </Grid>
               <Grid item xs={1}>
@@ -47,7 +47,7 @@ export default function TechInsights() {
               </Grid>
               <Grid item xs={11}>
                 <Typography variant="subtitle1" paragraph sx={{ fontStyle: 'italic' }}>
-                  c.jaquiery@gmail.com
+                  xxxx@gmail.com
                 </Typography>
               </Grid>
             </Grid>
@@ -57,13 +57,13 @@ export default function TechInsights() {
               <Typography variant="h6" gutterBottom sx={{ textDecoration: 'underline' }}>
                 Disclaimer
               </Typography>
-              <Typography variant="subtitle1" paragraph sx={{ fontStyle: 'italic' }}>
-                Information on this website is reviewed regularly but cannot guarantee its completeness, accuracy, or currentness.
-              </Typography>
+                  <Typography variant="subtitle1" paragraph sx={{ fontStyle: 'italic' }}>
+                  Information on this website is reviewed regularly but cannot guarantee its completeness, accuracy, or currentness.
+                  </Typography>
             </Paper>
           </Box>
-        </Box>
-      </Container>
+      </Box>
+    </Container>
     </Layout >
   );
 }

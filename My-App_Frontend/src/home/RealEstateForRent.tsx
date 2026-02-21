@@ -10,14 +10,14 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { useTranslation } from 'react-i18next';
 
 
-export default function Imprint() {
+export default function RealEstateForRent() {
   const { t } = useTranslation();
 
   return (
     <Layout>
       <Container maxWidth="lg">
         <Typography variant="h3" align="center" paddingTop={2} gutterBottom>
-        {t('imprint.title')}
+        {t('realEstateForRent.title')}
         </Typography>
         <Accordion sx={{ p: 0, mb: 2 }}>
           <AccordionSummary
@@ -26,12 +26,12 @@ export default function Imprint() {
             id="panel1-header"
           >
             <Typography variant="subtitle1" gutterBottom sx={{ textDecoration: 'underline' }}>
-            {t('imprint.purpose.title')}
+            {t('realEstateForRent.purpose.title')}
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
           <Typography variant="body2" paragraph sx={{ fontStyle: 'italic' }}>
-          {t('imprint.purpose.text')}
+          {t('realEstateForRent.purpose.text')}
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -42,29 +42,29 @@ export default function Imprint() {
             id="panel1-header"
           >
             <Typography variant="subtitle1" gutterBottom sx={{ textDecoration: 'underline' }}>
-            {t('imprint.contactInformation.title')}
+            {t('realEstateForRent.contactInformation.title')}
             </Typography>
           </AccordionSummary>
           <AccordionDetails>  
               <Grid container spacing={2}>
                 <Grid item xs={12} sm={3} md={2} lg={1}>
                   <Typography variant="body2" paragraph sx={{ fontStyle: 'italic' }}>
-                  {t('imprint.contactInformation.owner')}
+                  {t('realEstateForRent.contactInformation.owner')}
                   </Typography>
                 </Grid>
                 <Grid item xs={12} sm={9} md={10} lg={11}>
                   <Typography variant="body2" paragraph sx={{ fontStyle: 'italic' }}>
-                  {t('imprint.contactInformation.ownerName')}
+                  {t('realEstateForRent.contactInformation.ownerName')}
                   </Typography>
                 </Grid>
                 <Grid item xs={12} sm={3} md={2} lg={1}>
                   <Typography variant="body2" paragraph sx={{ fontStyle: 'italic' }}>
-                  {t('imprint.contactInformation.email')}
+                  {t('realEstateForRent.contactInformation.email')}
                   </Typography>
                 </Grid>
                 <Grid item xs={12} sm={9} md={10} lg={11}>
                   <Typography variant="body2" paragraph sx={{ fontStyle: 'italic' }}>
-                  {t('imprint.contactInformation.emailAddress')}
+                  {t('realEstateForRent.contactInformation.emailAddress')}
                   </Typography>
                 </Grid>
               </Grid>
@@ -76,12 +76,12 @@ export default function Imprint() {
             id="panel1-header"
           >
             <Typography variant="subtitle1" gutterBottom sx={{ textDecoration: 'underline' }}>
-            {t('imprint.disclaimer.title')}
+            {t('realEstateForRent.disclaimer.title')}
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography variant="body2" paragraph sx={{ fontStyle: 'italic' }}>
-            {t('imprint.disclaimer.text')}
+            {t('realEstateForRent.disclaimer.text')}
             </Typography>
           </AccordionDetails>
         </Accordion>

@@ -20,12 +20,12 @@ const Layout = ({ children }: LayoutProps) => {
 
   const sections = [
     { title: t('layout.sections.home'), url: '/' },
-    { title: t('layout.sections.aboutMe'), url: '/aboutMe' },
-    { title: t('layout.sections.aboutThisWebsite'), url: '/aboutThisWebsite' },
+    { title: 'Contact Us', url: '/contactUs' },
+    { title: t('layout.sections.aboutUs'), url: '/aboutUs' },
+    { title: t('layout.sections.services'), url: '/services' },
     // { title: 'Tech Insights (Coming soon)', url: '/techInsights' },
     // { title: 'Latest Posts (Coming soon)', url: '/latestPosts' },
-    // { title: 'Contact Me (Coming soon)', url: '/contactMe' },
-    { title: t('layout.sections.imprint'), url: '/imprint' },
+    { title: t('layout.sections.realEstateForRent'), url: 'https://www.airbnb.ch/rooms/1599354106232235267?guests=1&adults=1&s=67&unique_share_id=79e58c73-d11a-4a7d-ba30-175443eedd98&source_impression_id=p3_1771681794_P3cvUeg8zLQbKYm_' },
   ];
   
   let GitHub = {

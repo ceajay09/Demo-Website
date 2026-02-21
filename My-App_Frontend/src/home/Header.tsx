@@ -55,7 +55,7 @@ return (
       </Menu>
     </Toolbar>
     <Toolbar component="nav" variant="dense" sx={{ justifyContent: 'space-between', overflowX: 'auto' }}>
-      {sections.map((section) => (
+      {/* {sections.map((section) => (
         <MuiLink
           component={RouterLink}
           to={section.url}
@@ -67,7 +67,26 @@ return (
         >
           {section.title}
         </MuiLink>
-      ))}
+      ))} */}
+      {sections.map((section) => {
+      const isExternal = section.url.startsWith('http');
+
+      return (
+        <MuiLink
+          key={section.title}
+          component={isExternal ? 'a' : RouterLink}
+          to={!isExternal ? section.url : undefined}
+          variant="body2"
+          color="inherit"
+          href={isExternal ? section.url : undefined}
+          target={isExternal ? '_blank' : undefined}
+          rel={isExternal ? 'noopener noreferrer' : undefined}
+          sx={{ p: 1, flexShrink: 0 }}
+        >
+          {section.title}
+        </MuiLink>
+      );
+    })}
     </Toolbar>
   </Box>
 );

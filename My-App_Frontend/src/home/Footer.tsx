@@ -52,8 +52,8 @@ export default function Footer(props: FooterProps) {
               component="p"
             >
               {/* {description} */}
-              <Link href="mailto:c.jaquiery@gmail.com">
-                c.jaquiery@gmail.com
+              <Link href="mailto:xxxxx@gmail.com">
+                xxxxx@gmail.com
               </Link>
             </Typography>
           </Grid>
