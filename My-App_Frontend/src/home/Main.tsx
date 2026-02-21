@@ -22,9 +22,11 @@ interface MainProps {
 const Main: React.FC<MainProps> = ({title}) => {
   const {currentLanguage} = useLanguage();
   const [posts, setPosts] = useState<Post[]>([]);
+  const base = import.meta.env.VITE_API_URL || "";
+  console.log("VITE_API_URL =", import.meta.env.VITE_API_URL);
 
   const fetchPosts = (language: string) => {
-    fetch(`${import.meta.env.VITE_API_URL}/api/getBlogposts?lang=${language}`)
+    fetch(`${base}/api/getBlogposts?lang=${language}`)
     .then((response) => response.json())
     .then((data) => {
       setPosts(data);
