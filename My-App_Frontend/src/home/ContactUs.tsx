@@ -5,12 +5,12 @@ import Layout from './Layout';
 
 const theme = createTheme();
 
-export default function LatestPosts() { //TODO: Only Template
+export default function ContactUs() { //TODO: Only Template
   return (
     <Layout>
       <Container maxWidth="lg">
         <Typography variant="h3" align="center" paddingTop={2} gutterBottom>
-        LatestPosts
+        ContactUs
         </Typography>
 
         <Box sx={{ my: 4 }}>
@@ -37,7 +37,7 @@ export default function LatestPosts() { //TODO: Only Template
               </Grid>
               <Grid item xs={11}>
                 <Typography variant="subtitle1" paragraph sx={{ fontStyle: 'italic' }}>
-                  César Jaquiéry
+                  Surename Name
                 </Typography>
               </Grid>
               <Grid item xs={1}>
@@ -47,7 +47,7 @@ export default function LatestPosts() { //TODO: Only Template
               </Grid>
               <Grid item xs={11}>
                 <Typography variant="subtitle1" paragraph sx={{ fontStyle: 'italic' }}>
-                  c.jaquiery@gmail.com
+                  xxxx@gmail.com
                 </Typography>
               </Grid>
             </Grid>

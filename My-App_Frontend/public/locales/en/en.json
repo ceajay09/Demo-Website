@@ -1,6 +1,6 @@
 {
-  "aboutMe": {
-    "title": "About Me",
+  "aboutUs": {
+    "title": "About Us",
     "contactDetails": "Contact Details",
     "qualification": "Qualification:",
     "qualificationDetail": "Business Information BSc (FHNW)",
@@ -49,15 +49,27 @@
       "title": "Discover My Journey!",
       "date": "Dec 01",
       "description": "ERP Project Manager with a focus on process customization and programming. Explore more about my skills and journey.",
-      "imageLabel": "Screenshot AboutMe-Tab"
+      "imageLabel": "Screenshot AboutUs-Tab"
     },
     "sidebar": {
       "title": "Who I Am",
-      "description": "28-year-old Business Information FH graduate and ERP Project Manager interested in technology. I am continuously learning and ready to take on responsibility and explore new opportunities."
-    }
+      "description": "bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla."
+    },
+    "leftBox": {
+      "title": "featuredWorkTitle"
+    },
+    "midBox": {
+      "title": "midBoxTitle"
+    },
+    "rightBox": {
+      "topText": "rightBox topText",
+      "bottomText": "rightBox bottomText"
+    },
+    "introText": "introText",
+    "outroText": "outroText"
   },
-  "aboutThisWebsite": {
-    "title": "About This Website",
+  "services": {
+    "title": "Services",
     "introduction": {
       "title": "Introduction",
       "text": "This personal webpage serves as a platform to introduce myself and provide a detailed overview of the technologies and methodologies used in its development. It reflects my technical prowess in web development, illustrating a proficient use of various tools from front to back end. For additional details, please see the GitHub account linked in the footer."
@@ -108,8 +120,8 @@
       "text": "Designed for robustness, security, and responsiveness, this webpage leverages state-of-the-art technology in software development. It embodies my capability as a software developer, prepared to address professional challenges in the technology sector."
     }
   },
-  "imprint": {
-    "title": "Imprint",
+  "realEstateForRent": {
+    "title": "Real Estate For Rent",
     "purpose": {
       "title": "Purpose of the Website",
       "text": "This website is designed to offer insights into the construction of the site itself and to introduce you to who I am."
@@ -119,7 +131,7 @@
       "owner": "Owner:",
       "ownerName": "surname name",
       "email": "Email:",
-      "emailAddress": "c.jaquiery@gmail.com"
+      "emailAddress": "xxxx@gmail.com"
     },
     "disclaimer": {
       "title": "Disclaimer",
@@ -127,12 +139,12 @@
     }
   },
   "layout": {
-    "headerTitle": "DEMO Webpage",
+    "headerTitle": "basel-homefixer",
     "sections": {
       "home": "Home",
-      "aboutMe": "About Me",
-      "aboutThisWebsite": "About This Website",
-      "imprint": "Imprint"
+      "aboutUs": "About Us",
+      "services": "Services",
+      "realEstateForRent": "Real Estate For Rent"
     },
     "footer": {
       "title": "Contact",

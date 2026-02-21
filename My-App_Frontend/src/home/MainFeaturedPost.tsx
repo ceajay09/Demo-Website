@@ -61,7 +61,7 @@ export default function MainFeaturedPost(props: MainFeaturedPostProps) {
         }}>
           {post.description}
         </Typography>
-        <Link variant="subtitle1" href="/aboutMe" sx={{
+        <Link variant="subtitle1" href="/aboutUs" sx={{
           zIndex: 2, 
         }}>
           {post.linkText}

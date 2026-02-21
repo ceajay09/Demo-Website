@@ -7,7 +7,7 @@ This project is a personal website designed to showcase my skills and projects a
 ## Features
 
 - **Home Page**: Introduces visitors to the site with a featured blog post and quick access to other sections.
-- **About Me**: A detailed section about my background, skills, and interests.
+- **About Us**: A detailed section about my background, skills, and interests.
 - **Projects**: Highlights some of the key projects and the technologies used.
 - **Blog**: A section for latest blog posts about technology and personal experiences.
 - **Contact Information**: Provides ways to connect with me via social media or email.
@@ -24,7 +24,7 @@ The website is structured into multiple components, each responsible for a part 
 - `FeaturedPost`: Smaller cards used for showing various projects or posts.
 - `Main`: A component for displaying the latest blog posts in detail.
 - `Sidebar`: Used for showing additional information like contacts or small snippets.
-- `AboutMe`, `AboutThisWebsite`, `ContactMe`: Specific pages dedicated to detailed information.
+- `AboutUs`, `Services`, `ContactUs`: Specific pages dedicated to detailed information.
 
 ### Technologies Used
 

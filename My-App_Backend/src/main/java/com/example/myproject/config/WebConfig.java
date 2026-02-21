@@ -8,8 +8,10 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 /**
  * Configures cross-origin request handling for the application.
- * This configuration allows for controlled access to resources across different origins,
- * specifically for the API paths, enabling frontend applications from specified origins
+ * This configuration allows for controlled access to resources across different
+ * origins,
+ * specifically for the API paths, enabling frontend applications from specified
+ * origins
  * to interact with the backend services.
  */
 @Configuration
@@ -18,8 +20,10 @@ public class WebConfig implements WebMvcConfigurer {
 
     /**
      * Configures CORS (Cross-Origin Resource Sharing) settings for API endpoints.
-     * This setup allows the frontend application running on 'http://localhost:3000' to make requests
-     * to the backend across different origins. It specifies which HTTP methods are allowed when accessing
+     * This setup allows the frontend application running on 'http://localhost:3000'
+     * to make requests
+     * to the backend across different origins. It specifies which HTTP methods are
+     * allowed when accessing
      * the resources, and enables sending credentials with cross-origin requests.
      *
      * @param registry The CORS registry to which mapping configurations are added.
@@ -28,11 +32,8 @@ public class WebConfig implements WebMvcConfigurer {
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/api/**")
                 .allowedOrigins(
-                        "https://cesarjaquiery.ch",
-                        "https://demowebsite.cesarjaquiery.ch",
-                        "http://localhost:3000",
-                        "http://localhost:5173"
-                )
+                        "https://basel-homefixer.ch",
+                        "http://localhost:5173")
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                 .allowedHeaders("*")
                 .allowCredentials(true);

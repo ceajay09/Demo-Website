@@ -37,7 +37,7 @@ const BootstrapDialog = styled(Dialog)(({ theme }) => ({
   },
 }));
 
-export default function AboutThisWebsite() {
+export default function Services() {
   const [openOverview, setOpenOverview] = React.useState(false);
   const [openDetail, setOpenDetail] = React.useState(false);
   const { t } = useTranslation();
@@ -62,26 +62,26 @@ export default function AboutThisWebsite() {
       <ThemeProvider theme={theme}>
         <Container maxWidth="lg" style={{ marginBottom: '15px' }}>
           <Typography variant="h3" align="center" paddingTop={2} gutterBottom>
-            {t('aboutThisWebsite.title')}
+            {t('services.title')}
           </Typography>
           <Paper elevation={6} sx={{ p: 4, margin: 'auto', maxWidth: 936 }}>
             <Typography variant="h4" align="center" gutterBottom>
-              {t('aboutThisWebsite.introduction.title')}
+              {t('services.introduction.title')}
             </Typography>
             <Typography variant="body1" paragraph>
-              {t('aboutThisWebsite.introduction.text')}
+              {t('services.introduction.text')}
             </Typography>
             <Typography variant="h4" align="center" gutterBottom>
-              {t('aboutThisWebsite.technologiesAndToolsUsed.title')}
+              {t('services.technologiesAndToolsUsed.title')}
             </Typography>
 
             <Box display="flex" justifyContent="center" margin={2} onClick={handleClickOpenOverview}>
-              <img src={`/assets/My-App-Overview.drawio.svg`} alt={t('aboutThisWebsite.technologiesAndToolsUsed.overviewImageAlt')}
+              <img src={`/assets/My-App-Overview.drawio.svg`} alt={t('services.technologiesAndToolsUsed.overviewImageAlt')}
                 style={{ width: '60%', height: 'auto' }} />
             </Box>
             <BootstrapDialog
               onClose={handleCloseOverview}
-              aria-labelledby={t('aboutThisWebsite.technologiesAndToolsUsed.overviewImageAlt')}
+              aria-labelledby={t('services.technologiesAndToolsUsed.overviewImageAlt')}
               open={openOverview}
             >
               <IconButton
@@ -98,29 +98,29 @@ export default function AboutThisWebsite() {
               </IconButton>
               <DialogContent>
                 <Box display="flex" justifyContent="center" margin={2} onClick={handleClickOpenOverview}>
-                  <img src={`/assets/My-App-Overview.drawio.svg`} alt={t('aboutThisWebsite.technologiesAndToolsUsed.overviewImageAlt')}
+                  <img src={`/assets/My-App-Overview.drawio.svg`} alt={t('services.technologiesAndToolsUsed.overviewImageAlt')}
                     style={{ width: '100%', maxHeight: '80vh', objectFit: 'contain' }} />
                 </Box>
               </DialogContent>
             </BootstrapDialog>
 
             <Typography variant="h6" gutterBottom>
-              {t('aboutThisWebsite.versionControlAndCiCd.title')}
+              {t('services.versionControlAndCiCd.title')}
             </Typography>
             <Typography variant="body1" paragraph>
-              {t('aboutThisWebsite.versionControlAndCiCd.text')}
+              {t('services.versionControlAndCiCd.text')}
             </Typography>
             <Typography variant="h6" gutterBottom>
-              {t('aboutThisWebsite.awsInfrastructure.title')}
+              {t('services.awsInfrastructure.title')}
             </Typography>
 
             <Box display="flex" justifyContent="center" margin={2} onClick={handleClickOpenDetail}>
-              <img src={`/assets/My-App-diagrams.drawio.svg`} alt={t('aboutThisWebsite.technologiesAndToolsUsed.awsDetailImageAlt')}
+              <img src={`/assets/My-App-diagrams.drawio.svg`} alt={t('services.technologiesAndToolsUsed.awsDetailImageAlt')}
                 style={{ width: '60%', height: 'auto' }} />
             </Box>
             <BootstrapDialog
               onClose={handleCloseDetail}
-              aria-labelledby={t('aboutThisWebsite.technologiesAndToolsUsed.awsDetailImageAlt')}
+              aria-labelledby={t('services.technologiesAndToolsUsed.awsDetailImageAlt')}
               open={openDetail}
             >
               <IconButton
@@ -137,66 +137,66 @@ export default function AboutThisWebsite() {
               </IconButton>
               <DialogContent>
                 <Box display="flex" justifyContent="center" margin={2} onClick={handleClickOpenDetail}>
-                  <img src={`/assets/My-App-diagrams.drawio.svg`} alt={t('aboutThisWebsite.technologiesAndToolsUsed.awsDetailImageAlt')}
+                  <img src={`/assets/My-App-diagrams.drawio.svg`} alt={t('services.technologiesAndToolsUsed.awsDetailImageAlt')}
                     style={{ width: '100%', maxHeight: '80vh', objectFit: 'contain' }} />
                 </Box>
               </DialogContent>
             </BootstrapDialog>
 
             <Typography variant="body1" paragraph>
-              {t('aboutThisWebsite.awsInfrastructure.text')}
+              {t('services.awsInfrastructure.text')}
             </Typography>
             <Typography variant="h6" gutterBottom>
-              {t('aboutThisWebsite.frontendDevelopment.title')}
+              {t('services.frontendDevelopment.title')}
             </Typography>
             <Typography variant="body1" paragraph>
-              {t('aboutThisWebsite.frontendDevelopment.text')}
+              {t('services.frontendDevelopment.text')}
             </Typography>
             <Typography variant="h6" gutterBottom>
-              {t('aboutThisWebsite.backendDevelopment.title')}
+              {t('services.backendDevelopment.title')}
             </Typography>
             <Typography variant="body1" paragraph>
-              {t('aboutThisWebsite.backendDevelopment.text')}
+              {t('services.backendDevelopment.text')}
             </Typography>
             <Typography variant="h6" gutterBottom>
-              {t('aboutThisWebsite.dockerAndContainerization.title')}
+              {t('services.dockerAndContainerization.title')}
             </Typography>
             <Typography variant="body1" paragraph>
-              {t('aboutThisWebsite.dockerAndContainerization.text')}
+              {t('services.dockerAndContainerization.text')}
             </Typography>
               <Typography variant="body1" component="div">
                 <ul>
-                  <li><strong>Backend Service:</strong> {t('aboutThisWebsite.dockerAndContainerization.backendService')}</li><br />
-                  <li><strong>Frontend Service: </strong>{t('aboutThisWebsite.dockerAndContainerization.frontendService')}</li><br />
-                  <li><strong>Traefik as a Reverse Proxy: </strong>{t('aboutThisWebsite.dockerAndContainerization.traefikService')}</li>
+                  <li><strong>Backend Service:</strong> {t('services.dockerAndContainerization.backendService')}</li><br />
+                  <li><strong>Frontend Service: </strong>{t('services.dockerAndContainerization.frontendService')}</li><br />
+                  <li><strong>Traefik as a Reverse Proxy: </strong>{t('services.dockerAndContainerization.traefikService')}</li>
                 </ul>
             </Typography>
             <Typography variant="h6" gutterBottom>
-              {t('aboutThisWebsite.continuousMonitoringAndLoadBalancing.title')}
+              {t('services.continuousMonitoringAndLoadBalancing.title')}
             </Typography>
             <Typography variant="body1" paragraph>
-              {t('aboutThisWebsite.continuousMonitoringAndLoadBalancing.text')}
+              {t('services.continuousMonitoringAndLoadBalancing.text')}
             </Typography>
             <Typography variant="h4" gutterBottom>
-              {t('aboutThisWebsite.repositoryAndCodeStructure.title')}
+              {t('services.repositoryAndCodeStructure.title')}
             </Typography>
             <Typography variant="body1" paragraph>
-              {t('aboutThisWebsite.repositoryAndCodeStructure.text')}
+              {t('services.repositoryAndCodeStructure.text')}
             </Typography>
             <Typography variant="body1" component="div">
                 <ul>
-                  <li><strong>Config: </strong>{t('aboutThisWebsite.repositoryAndCodeStructure.config')}</li>
-                  <li><strong>Controllers: </strong>{t('aboutThisWebsite.repositoryAndCodeStructure.controllers')}</li>
-                  <li><strong>Services: </strong>{t('aboutThisWebsite.repositoryAndCodeStructure.services')}</li>
-                  <li><strong>Repositories: </strong>{t('aboutThisWebsite.repositoryAndCodeStructure.repositories')}</li>
-                  <li><strong>Models: </strong>{t('aboutThisWebsite.repositoryAndCodeStructure.models')}</li>
+                  <li><strong>Config: </strong>{t('services.repositoryAndCodeStructure.config')}</li>
+                  <li><strong>Controllers: </strong>{t('services.repositoryAndCodeStructure.controllers')}</li>
+                  <li><strong>Services: </strong>{t('services.repositoryAndCodeStructure.services')}</li>
+                  <li><strong>Repositories: </strong>{t('services.repositoryAndCodeStructure.repositories')}</li>
+                  <li><strong>Models: </strong>{t('services.repositoryAndCodeStructure.models')}</li>
                 </ul>
             </Typography>
             <Typography variant="h4" align="center" gutterBottom>
-              {t('aboutThisWebsite.summary.title')}
+              {t('services.summary.title')}
             </Typography>
             <Typography variant="body1" paragraph>
-              {t('aboutThisWebsite.summary.text')}
+              {t('services.summary.text')}
             </Typography>
           </Paper>
         </Container>
