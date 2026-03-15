@@ -1,62 +1,62 @@
 {
   "aboutUs": {
-    "title": "Über Mich",
-    "contactDetails": "Kontaktdaten",
-    "qualification": "Qualifikation:",
-    "qualificationDetail": "Wirtschaftsinformatik BSc (FHNW)",
-    "age": "Alter:",
-    "ageDetail": "28",
-    "phoneNumber": "Telefonnummer:",
-    "showNumber": "Nummer anzeigen",
+    "title": "about us title",
+    "contactDetails": "contactDetails",
+    "qualification": "qualification:",
+    "qualificationDetail": "qualificationDetail",
+    "age": "age:",
+    "ageDetail": "ageDetail",
+    "phoneNumber": "phoneNumber:",
+    "showNumber": "showNumber",
     "email": "E-Mail:",
     "basedIn": "Wohnort:",
     "basedInDetail": "Basel, Schweiz",
     "downloadCV": "DOWNLOAD CV",
-    "interestList": "Kleine private IT-Projekte, Klettern, Wandern, Wassersport, Tauchen",
-    "hello": "Wer bin ich?",
-    "techJourney": "Wie begann meine Reise?",
-    "techJourneyDetail": "Schon in jungen Jahren war ich von der Welt der IT fasziniert. Meine Erfahrungen als Werkstudent bei einem renommierten Pharmaunternehmen vertieften mein Verständnis für moderne Technologien und Prozessoptimierung, was mein Interesse in diesem Bereich verstärkte. Während meines Studiums in der Wirtschaftsinformatik, bei dem ich mich auf Programmiermodule konzentrierte, engagierte ich mich aktiv in praktischen Projekten mit Unternehmen als Kunden, übernahm gerne Verantwortung und setzte theoretisches Wissen in realen Situationen um. Mit meinem Arbeitgeber Opacc, kann ich neue Verantwortungen übernehmen und meine Programmiererfahrung in der Anwendung von Skripten vertiefen.",
-    "keySkills": "Welche Fähigkeiten habe ich entwickelt?",
-    "keySkillsDetail": "Meine vielfältigen Berufserfahrungen ermöglichten es mir, wertvolle Kenntnisse zu sammeln und mein Verständnis für verschiedene Programmiersprachen durch das Schreiben von Skripten zu erweitern. Mein Interesse an der IT vertiefte sich weiter, da ich an der Schnittstelle von Wirtschaft und Technologie arbeitete. Während meines Zivildienstes im IT-Support erwarb ich umfassendes Wissen über verschiedene Systeme und deren Interaktionen, was meine technische Grundlage weiter festigte. Diese Erfahrung war besonders bereichernd während eines Ransomware-Angriffs, der bedeutende Einblicke in die Interaktion und Zusammenarbeit von Systemen in Krisensituationen bot.",
-    "continuousLearning": "Was motiviert mein kontinuierliches Lernen?",
-    "continuousLearningDetail": "Ich beschäftige mich regelmässig mit privaten Projekten, um neue Technologien zu erkunden und mein bestehendes Wissen zu festigen, wie zum Beispiel die Erstellung dieser Webseite mit AWS, um deren Funktionen in der Praxis zu verstehen. Ich bemühe mich stets, mein Fachwissen durch das Lesen technischer Bücher zu erweitern, insbesondere zu Themen wie Design Patterns. Mein Weg in der Softwareentwicklung dreht sich nicht nur um den Erwerb von Wissen, sondern auch darum, das Gelernte zur Lösung realer Probleme anzuwenden. Ich suche ständig nach Möglichkeiten, mich beruflich weiterzuentwickeln und Verantwortung in bestimmten Fachgebieten zu übernehmen.",
-    "careerGoals": "Was sind meine beruflichen Ziele?",
-    "careerGoalsDetail": "Ich strebe danach, in dynamischen Umgebungen zu arbeiten, die Innovationen vorantreiben, und bringe meine technischen Fähigkeiten, Kreativität und Teamfähigkeit ein, um einen bedeutenden Beitrag zu leisten. Ich freue mich darauf, zu bedeutenden Projekten beizutragen, die Innovation vorantreiben und einen Unterschied machen. Mit Opacc habe ich einen Arbeitgeber gefunden, in dem ich mich weiterentwickeln kann und meine Erfahrungen aus dem Studium zur Anwendung bringen darf.",
+    "interestList": "interestList",
+    "hello": "hello",
+    "techJourney": "techJourney",
+    "techJourneyDetail": "techJourneyDetail",
+    "keySkills": "keySkills",
+    "keySkillsDetail": "keySkillsDetail",
+    "continuousLearning": "continuousLearning",
+    "continuousLearningDetail": "continuousLearningDetail",
+    "careerGoals": "careerGoals",
+    "careerGoalsDetail": "careerGoalsDetail",
     "projects": "Projekte",
-    "bachelorThesis": "Bachelorarbeit:",
-    "bachelorThesisDetail": "Konzept zur Implementierung von NFT-basierten Echtheitszertifikaten",
-    "bachelorThesisTasks": "Erforschung des Einsatzes von NFT-Technologie zur Stärkung der Kundenbindung, Analyse der Implementierungsoptionen und Erarbeitung von Vorschlägen, Erstellung eines schrittweisen Leitfadens zur Implementierung für das Unternehmen",
-    "practicalProject": "Praxisprojekt:",
-    "practicalProjectDetail": "Strategische Analyse und Optimierung des ERP-Datenmodells",
-    "practicalProjectTasks": "Visualisieren des aktuellen Datenflusses und der Geschäftsprozesse, Durchführung einer detaillierten Anforderungsanalyse, Vorschläge zur Optimierung des Datenmodells",
+    "bachelorThesis": "bachelorThesis:",
+    "bachelorThesisDetail": "bachelorThesisDetail",
+    "bachelorThesisTasks": "bachelorThesisTasks",
+    "practicalProject": "practicalProject:",
+    "practicalProjectDetail": "practicalProjectDetail",
+    "practicalProjectTasks": "practicalProjectTasks",
     "moreDetails": "Mehr Details..."
   },
   "blog": {
     "mainFeaturedPost": {
-      "title": "Letzte Blog-Posts",
+      "title": "title",
       "linkText": "Lebenslauf anzeigen..."
     },
     "featuredPost1": {
-      "title": "Meine Website ist jetzt live!",
+      "title": "title",
       "date": "22. Apr",
-      "description": "Ich freue mich, meine neue Website zu veröffentlichen! Hier werde ich Einblicke in technische Innovationen und mehr teilen.",
-      "imageLabel": "Diagramm AWS Infrastruktur"
+      "description": "description",
+      "imageLabel": "imageLabel"
     },
     "featuredPost2": {
-      "title": "Mein beruflicher Werdegang",
+      "title": "title",
       "date": "30. Dez",
-      "description": "ERP-Projektleiter mit Fokus auf Prozessanpassung und Programmierung. Erfahren Sie mehr über meine Fähigkeiten.",
-      "imageLabel": "Screenshot AboutUs-Tab"
+      "description": "description",
+      "imageLabel": "imageLabel"
     },
     "sidebar": {
-      "title": "Wer bin ich",
-      "description": "28-jähriger Wirtschaftsinformatik-Absolvent (FH) und ERP-Projektleiter mit grossem Interesse an der Technik. Ich bin motiviert neues zu Lernen, Verantwortung zu übernehmen und neue Möglichkeiten zu nutzen."
+      "title": "title",
+      "description": "description"
     },
     "leftBox": {
       "title": "featuredWorkTitle"
     },
-    "midBox": {
-      "title": "midBoxTitle"
+    "middleBox": {
+      "title": "Instagram"
     },
     "rightBox": {
       "topText": "rightBox topText",
@@ -69,7 +69,7 @@
     "title": "Über diese Website",
     "introduction": {
       "title": "Einführung",
-      "text": "Diese persönliche Webseite dient als Plattform, um mich vorzustellen und einen detaillierten Überblick über die Technologien und Methoden zu geben, die bei ihrer Entwicklung verwendet wurden. Sie spiegelt mein technisches Können in der Webentwicklung wider und zeigt den kompetenten Einsatz verschiedener Werkzeuge vom Frontend bis zum Backend. Für weitere Details siehe bitte den in der Fusszeile verlinkten GitHub-Account."
+      "text": "text"
     },
     "technologiesAndToolsUsed": {
       "title": "Verwendete Technologien und Werkzeuge",
@@ -78,7 +78,7 @@
     },
     "versionControlAndCiCd": {
       "title": "Versionskontrolle und CI/CD",
-      "text": "Git mit GitHub wird für die Versionskontrolle verwendet, was eine effektive Verwaltung und Nachverfolgung von Codeänderungen ermöglicht. Eine CI/CD-Pipeline ist eingerichtet, um das GitHub-Repository direkt mit AWS zu verknüpfen. Diese Einrichtung automatisiert den Bereitstellungsprozess, bei dem neue Code-Commits im Hauptzweig automatisch Docker-Images erstellen und Updates in das AWS-Repository übertragen."
+      "text": "/CD-Pipeline ist eingerichtet, um das GitHub-Repository direkt mit AWS zu verknüpfen. Diese Einrichtung automatisiert den Bereitstellungsprozess, bei dem neue Code-Commits im Hauptzweig automatisch Docker-Images erstellen und Updates in das AWS-Repository übertragen."
     },
     "awsInfrastructure": {
       "title": "AWS-Infrastruktur",
@@ -114,14 +114,14 @@
     },
     "summary": {
       "title": "Zusammenfassung",
-      "text": "Diese Webseite, die für Robustheit, Sicherheit und Reaktionsfähigkeit entwickelt wurde, nutzt moderne Technologie und bewährte Methoden in der Softwareentwicklung. Sie verkörpert meine Fähigkeiten und Motivation als Softwareentwickler, berufliche Herausforderungen im Technologiebereich zu meistern."
+      "text": "text"
     }
   },
   "realEstateForRent": {
     "title": "Impressum",
     "purpose": {
       "title": "Zweck der Website",
-      "text": "Diese Website soll Einblicke in den Aufbau der Seite selbst bieten und Ihnen vorstellen, wer ich bin."
+      "text": "text"
     },
     "contactInformation": {
       "title": "Kontaktinformationen",
@@ -132,7 +132,7 @@
     },
     "disclaimer": {
       "title": "Haftungsausschluss",
-      "text": "Die Informationen auf dieser Website werden regelmässig überprüft, können jedoch nicht auf Vollständigkeit, Richtigkeit oder Aktualität garantiert werden."
+      "text": "text."
     }
   },
   "layout": {
@@ -154,4 +154,5 @@
   }, "featuredPost":{
     "linkText": "Mehr Details..."
   }
+  
 }

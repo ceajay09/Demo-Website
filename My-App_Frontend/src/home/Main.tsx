@@ -37,6 +37,7 @@ const Main: React.FC<MainProps> = ({title}) => {
     });
 };
 
+
 useEffect(() => {
   fetchPosts(currentLanguage);
 }, [currentLanguage])
