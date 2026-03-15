@@ -2,11 +2,15 @@ package com.example.myproject.controller;
 
 import com.example.myproject.model.Account;
 import com.example.myproject.model.Blogpost;
+import com.example.myproject.model.HomepageConfig;
 import com.example.myproject.repository.AccountRepository;
 import com.example.myproject.repository.BlogRepository;
 import com.example.myproject.service.AccountService;
 import com.example.myproject.service.BlogService;
+import com.example.myproject.service.HomepageConfigService;
 import com.example.myproject.service.PDFService;
+
+import io.jsonwebtoken.io.IOException;
 import jakarta.servlet.http.HttpServletRequest;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -39,17 +43,20 @@ public class RequestHandler {
     private final BlogRepository blogRepository;
     private final PDFService pdfService;
     private final BlogService blogService;
+    private final HomepageConfigService homepageConfigService;
 
     public RequestHandler(AccountRepository accountRepository,
             AccountService accountService,
             BlogRepository blogRepository,
             PDFService pdfService,
-            BlogService blogService) {
+            BlogService blogService,
+            HomepageConfigService homepageConfigService) {
         this.accountRepository = accountRepository;
         this.accountService = accountService;
         this.blogRepository = blogRepository;
         this.pdfService = pdfService;
         this.blogService = blogService;
+        this.homepageConfigService = homepageConfigService;
     }
 
     @PostMapping(path = "api/register", produces = "application/json")
@@ -92,6 +99,17 @@ public class RequestHandler {
     @GetMapping(path = "api/downloadPDF/{fileName}", produces = "application/json")
     public ResponseEntity<Resource> downloadPDF(@PathVariable String fileName) throws MalformedURLException {
         return pdfService.downloadPDF(fileName);
+    }
+
+    @GetMapping("/api/homepage-config")
+    public ResponseEntity<HomepageConfig> getHomepageConfig() throws java.io.IOException {
+        try {
+            // System.err.println("homepage-config reqeusted");
+            HomepageConfig config = homepageConfigService.getHomepageConfig();
+            return ResponseEntity.ok(config);
+        } catch (IOException e) {
+            return ResponseEntity.internalServerError().build();
+        }
     }
 
 }
