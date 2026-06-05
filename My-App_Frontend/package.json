@@ -10,7 +10,7 @@
     "@mui/material": "^5.11.13",
     "@mui/types": "^7.2.14",
     "@testing-library/user-event": "^14.4.3",
-    "@types/jest": "^29.5.0",
+    "@types/jest": "^30.0.0",
     "@types/react": "^19.2.16",
     "@types/react-dom": "^19.2.3",
     "bootstrap": "^5.3.3",
