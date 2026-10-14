@@ -1,0 +1,24 @@
+http:
+  routers:
+    backend:
+      rule: PathPrefix(`/api`) || PathPrefix(`/actuator`)
+      entryPoints: [web]
+      priority: 100
+      service: backend
+    frontend:
+      rule: PathPrefix(`/`)
+      entryPoints: [web]
+      priority: 1
+      middlewares: [native-frontend]
+      service: noop@internal
+  middlewares:
+    native-frontend:
+      redirectScheme:
+        scheme: http
+        port: "5173"
+        permanent: false
+  services:
+    backend:
+      loadBalancer:
+        servers:
+          - url: http://backend:8081

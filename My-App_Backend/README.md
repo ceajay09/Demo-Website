@@ -1,3 +1,31 @@
+# Backend lokal starten
+
+Benötigt: JDK 17 mit `JAVA_HOME`, Docker Desktop mit Linux-Engine und die bisherige lokale `src/main/resources/application-dev.properties`. Diese Datei bleibt ignoriert und enthält die bestehende MongoDB-Konfiguration.
+
+Im Projekt-Hauptordner `start-backend.bat` ausführen. Sie baut das JAR mit `mvnw.cmd package` und startet Backend und Traefik über `compose.local.yaml`. Das bestehende Dockerfile wird weiterverwendet. Keine lokale MongoDB und keine neue Parent-Kopie werden eingerichtet.
+
+Der Maven-Parent `ch.cesarjaquiery:shared-backend-parent:1.0.0` muss wie bisher verfügbar sein: entweder über eine lokale Maven-Einstellung für GitHub Packages oder bereits im lokalen Maven-Repository. GitHub Actions konfiguriert diesen Zugang über `PACKAGES_TOKEN`.
+
+Wenn das originale Nachbarprojekt `shared-backend-parent` neben `Demo-Website` vorhanden ist, kann dessen Parent einmalig installiert werden. Im Backend-Ordner:
+
+```powershell
+.\mvnw.cmd -f ../../shared-backend-parent/pom.xml install -N
+```
+
+Ohne dieses Nachbarprojekt stattdessen GitHub Packages in den persönlichen Maven-Einstellungen konfigurieren. Zugangsdaten nicht ins Repository aufnehmen.
+
+Backend: http://localhost:8081. Über Traefik: http://localhost/api/homepage-config. Logs und Stoppen im Hauptordner:
+
+```powershell
+docker compose -f compose.local.yaml logs -f backend traefik
+docker compose -f compose.local.yaml stop backend traefik
+```
+
+Native Alternative im Backend-Ordner: `mvnw.cmd spring-boot:run -Dspring-boot.run.profiles=dev`. Vorher ein laufendes Docker-Backend stoppen, damit Port 8081 frei ist. Native Anwendung mit Strg+C beenden. Prüfung: `mvnw.cmd verify`.
+
+Das bisherige Datenbank- und Initialisierungsverhalten bleibt bestehen. Vollständige Startanleitung: [Projekt-README](../README.md).
+
+---
 ## Introduction
 
 This repository contains the backend implementation for my personal website, serving as the foundational layer where I introduce myself and outline the technical structure of the site. This platform reflects my expertise in backend development, showcasing my ability to create RESTful services and manage data using MongoDB.

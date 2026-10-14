@@ -1,3 +1,30 @@
+# Frontend direkt starten
+
+Benötigt: Node.js **22.x** inklusive npm. Im Frontend-Ordner:
+
+```powershell
+npm ci
+npm run start
+```
+
+Website: **http://localhost:5173**. Das Terminal offen lassen und mit Strg+C stoppen. Nach der ersten Installation genügt `npm run start`. Das funktioniert jetzt auch im Projekt-Hauptordner. Alternativ `start-frontend.bat` doppelklicken.
+
+Die vorhandene API-Konfiguration bleibt erhalten: `VITE_API_URL=http://localhost:8081` in der lokalen, ignorierten `.env.development` setzen. `npm run dev` lädt diese Datei wie bisher explizit. Für Backend-Funktionen zusätzlich `start-backend.bat` im Hauptordner ausführen.
+
+Vite lauscht nur auf `127.0.0.1`, ohne Netzwerkfreigabe für andere Geräte. Änderungen unter `src` und `public` werden nachgeladen. Nach Paketänderungen `npm ci` wiederholen. Ein alter Frontend-Container oder ein anderer Vite-Prozess darf Port 5173 nicht bereits belegen.
+
+Falls PowerShell `npm.ps1` blockiert, `npm.cmd run start` verwenden. Nach der Node-Installation VS Code und Terminal neu starten.
+
+Prüfungen:
+
+```powershell
+npm run typecheck
+npm run build
+```
+
+Buildausgabe: `dist/`. Vorschau: `npm run preview`. Die MUI-Korrekturen sind unabhängig von den unveränderten Locale-Dateien. Vollständige Einrichtung: [Projekt-README](../README.md).
+
+---
 # Personal Website
 
 ## Introduction
