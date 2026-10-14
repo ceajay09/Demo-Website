@@ -1,158 +1,230 @@
 {
-  "aboutUs": {
-    "title": "about us title",
-    "contactDetails": "contactDetails",
-    "qualification": "qualification:",
-    "qualificationDetail": "qualificationDetail",
-    "age": "age:",
-    "ageDetail": "ageDetail",
-    "phoneNumber": "phoneNumber:",
-    "showNumber": "showNumber",
+  "contactInformation": {
+    "owner": "Eigentümer:",
+    "ownerName": "Pascal Jaquiéry",
     "email": "E-Mail:",
-    "basedIn": "Wohnort:",
+    "emailAddress": "baselhomefixer@gmail.com",
+    "phoneNumber": "Telefonnummer:",
+    "showNumber": "0762059285",
+    "basedIn": "Standort:",
     "basedInDetail": "Basel, Schweiz",
-    "downloadCV": "DOWNLOAD CV",
-    "interestList": "interestList",
-    "hello": "hello",
-    "techJourney": "techJourney",
-    "techJourneyDetail": "techJourneyDetail",
-    "keySkills": "keySkills",
-    "keySkillsDetail": "keySkillsDetail",
-    "continuousLearning": "continuousLearning",
-    "continuousLearningDetail": "continuousLearningDetail",
-    "careerGoals": "careerGoals",
-    "careerGoalsDetail": "careerGoalsDetail",
-    "projects": "Projekte",
-    "bachelorThesis": "bachelorThesis:",
-    "bachelorThesisDetail": "bachelorThesisDetail",
-    "bachelorThesisTasks": "bachelorThesisTasks",
-    "practicalProject": "practicalProject:",
-    "practicalProjectDetail": "practicalProjectDetail",
-    "practicalProjectTasks": "practicalProjectTasks",
-    "moreDetails": "Mehr Details..."
-  },
-  "blog": {
-    "mainFeaturedPost": {
-      "title": "title",
-      "linkText": "Lebenslauf anzeigen..."
-    },
-    "featuredPost1": {
-      "title": "title",
-      "date": "22. Apr",
-      "description": "description",
-      "imageLabel": "imageLabel"
-    },
-    "featuredPost2": {
-      "title": "title",
-      "date": "30. Dez",
-      "description": "description",
-      "imageLabel": "imageLabel"
-    },
-    "sidebar": {
-      "title": "title",
-      "description": "description"
-    },
-    "leftBox": {
-      "title": "featuredWorkTitle"
-    },
-    "middleBox": {
-      "title": "Instagram"
-    },
-    "rightBox": {
-      "topText": "rightBox topText",
-      "bottomText": "rightBox bottomText"
-    },
-    "introText": "introText",
-    "outroText": "outroText"
-  }, 
-  "services": {
-    "title": "Über diese Website",
-    "introduction": {
-      "title": "Einführung",
-      "text": "text"
-    },
-    "technologiesAndToolsUsed": {
-      "title": "Verwendete Technologien und Werkzeuge",
-      "overviewImageAlt": "CI/CD-Übersichtsschema",
-      "awsDetailImageAlt": "AWS-Detailschema"
-    },
-    "versionControlAndCiCd": {
-      "title": "Versionskontrolle und CI/CD",
-      "text": "/CD-Pipeline ist eingerichtet, um das GitHub-Repository direkt mit AWS zu verknüpfen. Diese Einrichtung automatisiert den Bereitstellungsprozess, bei dem neue Code-Commits im Hauptzweig automatisch Docker-Images erstellen und Updates in das AWS-Repository übertragen."
-    },
-    "awsInfrastructure": {
-      "title": "AWS-Infrastruktur",
-      "text": "Ursprünglich bestand die Bereitstellungsarchitektur auf AWS aus zwei EC2 Instanzen mit einem Load-Balancer, um die Lastverteilung zu optimieren und die Verfügbarkeit zu erhöhen. Kürzlich wurde auf auf Fargate umgestiegen, um die Kosten zu senken und gleichzeitig die Leistung und Skalierbarkeit zu erhalten. Ein HTTPS-Zertifikat auf AWS stellt sicher, dass alle zwischen dem Benutzer und dem Server übertragenen Daten sicher verschlüsselt sind."
-    },
-    "frontendDevelopment": {
-      "title": "Frontend-Entwicklung",
-      "text": "Das Frontend entstand aus der Grundlage eines Material UI-Template und sorgt für ein modernes Aussehen und wurde in TypeScript weiterentwickelt. Es wird auf einem Nginx-Server gehostet, der für seine Leistung und Zuverlässigkeit ausgewählt wurde."
-    },
-    "backendDevelopment": {
-      "title": "Backend-Entwicklung",
-      "text": "Das Backend befindet sich in Docker-Umgebungen, was die Konsistenz zwischen Entwicklungs- und Produktionsumgebungen fördert. Es wurde mit Spring Boot entwickelt und ist in MongoDB für das Datenbankmanagement integriert. Zu einem späteren Zeitpunkt wird Spring Secuirty integriert."
-    },
-    "dockerAndContainerization": {
-      "title": "Docker und Containerisierung",
-      "text": "Docker Compose verwaltet die Multi-Container-Docker-Anwendungen:",
-      "backendService": "Dieser Service basiert auf Spring Boot, konfiguriert mit den notwendigen Umgebungsvariablen für Datenbankverbindungen und mit Protokollen, die an AWS CloudWatch zur Überwachung weitergeleitet werden.",
-      "frontendService": "Dieser Service behandelt das React-basierte Frontend, das auf Nginx läuft, wobei die Protokolle ebenfalls über AWS CloudWatch verwaltet werden.",
-      "traefikService": "Leitet den Netzwerkverkehr zum entsprechenden Backend- oder Frontend-Dienst weiter und ist für die Verwaltung von HTTP-Verkehr konfiguriert."
-    },
-    "continuousMonitoringAndLoadBalancing": {
-      "title": "Kontinuierliche Überwachung und Lastverteilung",
-      "text": "AWS und Traefik gewährleisten eine reibungslose Verwaltung des Datenverkehrs und SSL/TLS-Konfigurationen, wobei Traefik den HTTP-Datenverkehr weiterleitet und AWS die HTTPS-Sicherheit übernimmt. Diese strategische Einrichtung hilft, die Benutzerlast effizient über die Server zu verteilen und Verkehrsspitzen zu bewältigen."
-    },
-    "repositoryAndCodeStructure": {
-      "title": "Repository- und Code-Struktur",
-      "text": "Die Code-Basis ist so konzipiert, dass er die Funktionalität verdeutlicht und die Wartbarkeit verbessert:",
-      "config": "Hier werden die Einstellungen für Sicherheit und Betriebsverhalten definiert.",
-      "controllers": "Kümmern sich um die Logik für HTTP-Anfragen und -Antworten.",
-      "services": "Die Geschäftslogik für Funktionen wie Benutzerkontoverwaltung und Blog-Operationen befindet sich hier.",
-      "repositories": "Interagieren mit MongoDB, um Datenoperationen zu verwalten.",
-      "models": " Sind Datenstrukturen innerhalb der Anwendung werden in diesem Abschnitt definiert."
-    },
-    "summary": {
-      "title": "Zusammenfassung",
-      "text": "text"
-    }
-  },
-  "realEstateForRent": {
-    "title": "Impressum",
-    "purpose": {
-      "title": "Zweck der Website",
-      "text": "text"
-    },
-    "contactInformation": {
-      "title": "Kontaktinformationen",
-      "owner": "Inhaber:",
-      "ownerName": "Vorname Nachname",
-      "email": "E-Mail:",
-      "emailAddress": "xxxx@gmail.com"
-    },
     "disclaimer": {
       "title": "Haftungsausschluss",
-      "text": "text."
+      "text": "Die Informationen auf dieser Website werden regelmäßig überprüft, aber es kann nicht garantiert werden, dass sie vollständig, genau oder aktuell sind."
     }
   },
+
   "layout": {
     "headerTitle": "basel-homefixer",
     "sections": {
       "home": "Startseite",
-      "aboutUs": "Über uns",
-      "services": "Services",
-      "realEstateForRent": "Immobilienvermietung"
+      "aboutUs": "Über Uns",
+      "services": "Dienstleistungen",
+      "projects": "Projekte",
+      "blog": "Blog"
     },
     "footer": {
       "title": "Kontakt",
-      "description": "Kontaktieren Sie mich über LinkedIn oder Mail"
+      "description": "Ich bin nur eine Nachricht entfernt."
     },
     "socialLinks": {
-      "github": "GitHub",
+      "instagram": "Instagram",
       "linkedin": "LinkedIn"
     }
-  }, "featuredPost":{
-    "linkText": "Mehr Details..."
+  },
+
+  "aboutUs": {
+    "title": "Über Uns",
+    "contactDetails": "Kontaktdetails",
+    "qualification": "Qualifikation:",
+    "qualificationDetail": "Projektmanager, zertifizierter Elektrofachmann | 16 Jahre Erfahrung | Spezialgebiete: Heizsysteme, Küchen, Bodenbeläge, Badezimmer, Smart Home",
+    "age": "Alter:",
+    "ageDetail": "35",
+    "phoneNumber": "Telefonnummer:",
+    "showNumber": "0762059285",
+    "email": "E-Mail:",
+    "emailAddress": "baselhomefixer@gmail.com",
+    "basedIn": "Standort:",
+    "basedInDetail": "Basel, Schweiz",
+    "downloadCV": "CV HERUNTERLADEN",
+    "interests": "Interessen",
+    "hello": "Hallo! Ich bin Pascal Jaquiéry, zertifizierter Elektrofachmann und Projektmanager mit 16 Jahren praktischer Erfahrung in Wohnungsrenovationen. Ich spezialisiere mich auf die Transformation von kleinen Wohnungen und Häusern mit Fokus auf intelligente, kosteneffektive Lösungen. Meine Expertise erstreckt sich auf Heizsysteme, Küchen, Bodenbeläge, Badezimmer und Smart-Home-Integration – alles von Anfang bis Ende geliefert, vom Konzept bis zur Umsetzung.",
+    "techJourney": "Meine Reise begann mit praktischer Elektroarbeit und entwickelte sich zu umfassendem Projektmanagement. In 16 Jahren habe ich viele unterschiedliche Kunden aus der ganzen Welt durch komplette Wohnungsrenovationen begleitet und gelernt, dass Erfolg in der Verbindung von technischer Exzellenz und dem Verständnis der Kundenvision liegt. Diese Erfahrung offenbarte eine Lücke: Auswanderer und Hausbesitzer in Basel kämpfen mit lokalen Standards, Lieferanten und Projektkoordination. Ich gründete Basel Home Fixer, um diese Lücke zu schließen – praktische Ausführung mit fachkundigem Consulting verbindend.",
+    "keySkills": "Schlüsselkompetenzen",
+    "keySkillsDetail": "✓ Zertifizierter Elektrofachmann | ✓ Projektmanagement (von Anfang bis Ende) | ✓ Heizsystemdesign & Installation | ✓ Küchen- & Badezimmerrenovation | ✓ Bodenbelagspezialist | ✓ Smart-Home-Integration | ✓ Kosten- und Zeitplankontrolle | ✓ Kundenorientierte Beratung | ✓ Deutsch & Englisch (nahtlose Kommunikation)",
+    "continuousLearning": "Kontinuierliches Lernen",
+    "continuousLearningDetail": "Die Bau- und Renovierungsindustrie entwickelt sich ständig weiter – neue Technologien, Materialien und Smart-Home-Lösungen entstehen regelmäßig. Ich bleibe durch Industriezertifizierungen, Lieferantenpartnerschaften und praktische Projekte auf dem neuesten Stand. Mein Fokus: Beherrschung der neuesten Heiztechnologien, Smart-Home-Automatisierung und nachhaltiger Baupraktiken, um meinen Kunden innovative Lösungen zu liefern.",
+    "careerGoals": "Karriereziele",
+    "careerGoalsDetail": "Meine Vision ist es, Basel Home Fixer als vertrauensvoller Berater für Auswanderer und Hausbesitzer zu etablieren, die transparente, fachkundige Beratung bei Wohnungsrenovationen suchen. Ich möchte ein Netzwerk zuverlässiger, geprüfter Spezialisten aufbauen und in nachhaltige Wohnlösungen expandieren. Letztendlich möchte ich, dass jeder Kunde sich selbstbewusst, unterstützt und erfreut über seine Wohnungstransformation fühlt – nicht nur repariert, sondern gehoben."
+  },
+
+  "projects": {
+    "title": "Projekte",
+    "introduction": "Jenseits von Standard-Lösungen – Drei durchgeführte echte Projekte",
+    "philosophy": "Was Basel Home Fixer auszeichnet, ist nicht nur die Ausführung – es sind intelligente Lösungen. Wir wenden keine Standard-Ansätze an; wir identifizieren, was Ihre spezifische Situation braucht, und liefern entsprechend. Dies spart oft Geld, verhindert zukünftige Probleme und liefert Ergebnisse, die Erwartungen übertreffen.",
+    "project1": {
+      "title": "Küchenmodernisierung – Gasumstellung auf Elektrizität",
+      "challenge": "Renovierung einer älteren Wohnungsküche bei gleichzeitiger Umstellung der Infrastruktur von Gas auf Elektrizität – eine komplexe Aufgabe mit mehreren zu integrierenden Systemen.",
+      "solution": "Komplette Infrastruktur-Upgrade: Gasumstellung auf Elektrizität | Neue Wasser- und Energiesysteme (richtig dimensioniert für tatsächliche Anforderungen) | Modernes Beleuchtungsdesign mit Smart-Integration-Möglichkeiten | Maßgeschneiderte Küchenlayout in Partnerschaft mit Wohnpark Binzen | Strategische Preisverhandlungen, die Wert optimierten, ohne Qualität zu beeinträchtigen",
+      "result": "CHF 37.000 Gesamtinvestition | Kunde gewann eine vollständig moderne, energieeffiziente Küche mit Layout, das perfekt zu seinem Lebensstil passt",
+      "valueDelivered": "Ein Generalunternehmer hätte eine Standard-Küche installiert. Unsere Expertise stellte sicher, dass die richtigen Systeme, das Layout und die Kostenoptimierung gewährt waren."
+    },
+    "project2": {
+      "title": "Balkonverglasung – Nahtlose Projektausführung",
+      "challenge": "Umwandlung eines offenen Balkons in einen geschlossenen, wettergeschützten Raum durch umfassende Planung, Messung, Produktionskoordination und Installation.",
+      "solution": "Detaillierte Planung und präzise Messungen | Produktionskoordination mit zuverlässigen Partnern | Professionelle Installation mit Sicherung der Strukturintegrität und Feuchtigkeitsschutz",
+      "result": "CHF 12.000 Investition | Vergrößerter nutzbarer Wohnraum mit professionellen Ergebnissen",
+      "valueDelivered": "End-to-End-Management entfernt Stress vom Kunden. Wir handhaben jede Phase, damit Sie das Ergebnis genießen."
+    },
+    "project3": {
+      "title": "Heizsystemmodernisierung – Technische Exzellenz im Mehrfamilienhaus",
+      "challenge": "Upgrade der Heizinfrastruktur über 2 Wohnhäuser (18 Einheiten insgesamt) und Austausch aller individuellen Verteilereinheiten – ein komplexes, koordiniertes Projekt, das technische Expertise und Aufmerksamkeit zum Detail erfordert.",
+      "solution": "Modernes Heizsystemdesign und Installation (Rosenmund) | Wärmemesser-Integration zur Kostenkontrolle (Rapp) | Kompletter Austausch von 18 individuellen Verteilereinheiten | Koordination über zwei Gebäude mit minimaler Beeinträchtigung der Bewohner",
+      "result": "CHF 60.000 Investition | Energieeffiziente Heizung, Kostenttransparenz für Mieter, zukunftssichere Infrastruktur",
+      "valueDelivered": "Ein Standard-Handwerker würde kritische Details übersehen. Unsere Expertise erkannte Probleme, die später zu teuren Schäden geführt hätten, und sparte dem Eigentümer erhebliche zukünftige Kosten und Mieterbeschwerden."
+    },
+    "whyMatter": "✓ Komplexität: Mehrere Gewerke, Partner und Phasen nahtlos koordiniert | ✓ Innovation: Richtig dimensionierte Lösungen (nicht überdimensioniert, nicht unterdimensioniert) | ✓ Prävention: Expertise, die kritische Probleme identifiziert und verhindert | ✓ Vertrauen: Kunden sind zuversichtlich, dass sie die neueste, angemessenste Technologie erhalten | ✓ Wert: Investition in fachkundige Beratung rentiert sich durch Einsparungen und Qualität"
+  },
+
+  "services": {
+    "title": "Dienstleistungen",
+    "introduction": "Ob Sie ein neuer Auswanderer, ein Hausbesitzer, der Renovierungen plant, oder ein Verwalter mehrerer Immobilien in Basel sind – Wohnungsverbesserungen können überwältigend wirken. Wir wandeln Komplexität in Klarheit mit fachkundiger Anleitung, transparenten Preisen und intelligenten Lösungen um. So helfen wir:",
+    "service1": {
+      "title": "Küchenrenovation & Modernisierung",
+      "problem": "Alte Küche mit veralteter Infrastruktur (Gassysteme, schlechte Beleuchtung, ineffizientes Layout) | Wissen Sie nicht, wo Sie anfangen sollen oder wem Sie vertrauen können | Angst vor versteckten Kosten und Überraschungen",
+      "solution": "Komplette Küchenumwandlung: Infrastruktur-Upgrades, moderne Systeme, maßgeschneiderte Layouts | Fachkundige Beratung mit vertrauenswürdigen Lieferantenpartnern (Wohnpark Binzen) | Transparente Preisgestaltung und Kostenoptimierung | Von der Planung bis zur endgültigen Installation – wir kümmern uns um alles",
+      "included": "✓ Layout-Design & Beratung | ✓ Systemupgrades (Gas→Elektrizität, Wasser, Energie) | ✓ Moderne Beleuchtung | ✓ Fliesen- & Ausbauten | ✓ Lieferantenkoordination & Preisverhandlung",
+      "scope": {
+        "consultation": "Erstbewertung, Bedarfsanalyse, Layout-Design, 3D-Visualisierungskonzepte",
+        "infrastructure": "Gasumstellung auf Elektrizität, Wassersysteme, elektrische Neuverkabelung, Abwasser-Optimierung",
+        "modernSystems": "Neue Geräte, modernes Beleuchtungsdesign, Smart-Lighting-Optionen, Belüftung",
+        "materialsFinishing": "Fliesenauswahl, Wandfinish, Arbeitsplatten, Beschlagware, Farbe/Beschichtung",
+        "supplierCoordination": "Partnerschaft mit vertrauenswürdigen Lieferanten (Wohnpark Binzen, andere), Preisverhandlung, Qualitätssicherung",
+        "installation": "Professionelle Installation aller Komponenten, Ausbauten, Reinigung",
+        "timeline": "Typische Dauer: 6-12 Wochen (abhängig von Umfang)",
+        "priceRange": "Ab CHF 25.000 (variiert je nach Umfang)",
+        "warranty": "Material- und Verarbeitungsgarantie inbegriffen"
+      }
+    },
+    "service2": {
+      "title": "Energierenovation & Effizienz",
+      "problem": "Hohe Heiz- und Energiekosten | Alte Gebäudesysteme, die ineffizient sind | Sie verstehen nicht, welche Verbesserungen sich wirklich lohnen",
+      "solution": "Intelligente Energieaudits, die Ihre Kostenlecks identifizieren | Richtig dimensionierte Heizsysteme, Isolierung und Technologie-Upgrades | Wärmemesser-Integration für transparente Kostenallokation | Lösungen, die sich durch Einsparungen selbst finanzieren",
+      "included": "✓ Energiebewertung | ✓ Heizystem-Optimierung | ✓ Isolierverbesserungen | ✓ Wärmemesser-Installation | ✓ ROI-Analyse | ✓ Langfristige Kostenkontrolle",
+      "scope": {
+        "energyAudit": "Gebäudebewertung, Wärmebild, Systemprüfung, Effizienzanalyse",
+        "recommendations": "Prioritätsverbesserungen, Kosten-Nutzen-Analyse, ROI-Berechnungen",
+        "heatingOptimization": "Systemdesign, Effizienz-Upgrades, Thermostat-Installation, Kontrollsysteme",
+        "insulation": "Dachämmung, Fenster-Upgrades, Wärmebrücken-Analyse, Feuchtigkeitsschutz",
+        "heatMeters": "Installation für Kostenttransparenz, Monitoring-Setup",
+        "materialSelection": "Umweltfreundliche, hocheffiziente Optionen gemäß Schweizer Standards",
+        "installation": "Professionelle Installation, Prüfung, Kalibrierung",
+        "postProjectSupport": "Systemoptimierung, Kostenverfolgung, fortlaufende Effizienzempfehlungen",
+        "timeline": "4-16 Wochen (abhängig von Umfang und Komplexität)",
+        "priceRange": "Ab CHF 15.000 (variiert erheblich je nach Umfang)",
+        "savingsPotential": "Typischerweise 20-40% Reduktion der Energiekosten"
+      }
+    },
+    "service3": {
+      "title": "Heizsysteme – Design & Installation",
+      "problem": "Altes Heizsystem bricht zusammen oder ist unzuverlässig | Unklar Preisgestaltung und Installationsprozess | Mehrfamilienhäuser = komplexe Koordination",
+      "solution": "Moderne Heizsysteme mit transparenten Kostenstrukturen | Wärmemesser-Installation für individuelle Kostenttransparenz (wichtig für Mieter) | Zuverlässige Partnerkoordination (Rosenmund, Rapp) | Nahtlose Installation mit minimaler Beeinträchtigung",
+      "included": "✓ Systemdesign | ✓ Professionelle Installation | ✓ Wärmemesser-Integration | ✓ Mehrgebäude-Koordination | ✓ Garantie & Support",
+      "scope": {
+        "assessment": "Bewertung des aktuellen Systems, Kapazitätsanalyse, Effizienzüberprüfung",
+        "designPlanning": "Moderne Systemauswahl (Rosenmund, andere), Layout-Design, Kapazitätsdimensionierung",
+        "heatMeterIntegration": "Rapp-Wärmemesser, individuelle Einheit-Messung, Kostenallokations-Setup",
+        "installation": "Professionelle Installation, Rohre, Anschlüsse, Sicherheitsprüfungen",
+        "multiUnitCoordination": "Mehrfamilienhaus-Unterstützung, minimale Mieterstörung, zentralisierte Planung",
+        "testingCommissioning": "Systemprüfung, Optimierung, Leistungsverifizierung",
+        "documentation": "Handbücher, Garantieinformationen, Systemsteuerungs-Training",
+        "tenantSupport": "Installation für Mehrfamilienhäuser, Kostentransparenz-Schulung",
+        "timeline": "4-12 Wochen (abhängig von Gebäudegröße und Komplexität)",
+        "priceRange": "CHF 15.000-100.000+ (abhängig von Gebäudegröße und Systemkomplexität)",
+        "warranty": "Vollständige Herstellergarantie + Installationsgarantie"
+      }
+    },
+    "service4": {
+      "title": "Smart-Home-Integration",
+      "problem": "Technologie fühlt sich überwältigend und teuer an | Sie wissen nicht, was wirklich nützlich ist vs. nur Spielerei | Sorge um Kompatibilität und Zukunftssicherheit",
+      "solution": "Smart-Home-Lösungen, die für reale Anwendung konzipiert sind (nicht nur 'coole Gadgets') | Integration mit Ihren vorhandenen Systemen | Sprachsteuerung, automatisierte Beleuchtung, Heizung und Konnektivität | Zukunftssicheres Design, das mit Ihren Bedürfnissen wächst",
+      "included": "✓ Smart-Home-Design & Beratung | ✓ WiFi-Optimierung | ✓ Smart-Lighting & Automatisierung | ✓ Sprachsteuerungs-Setup | ✓ Integration mit Heizung & Geräten | ✓ Fortlaufender Support",
+      "scope": {
+        "consultation": "Bedarfsanalyse, Technologie-Übersicht, realistische Anwendungsfälle",
+        "wifiConnectivity": "Netzwerk-Bewertung, Optimierung, Abdeckungsverbesserung, Sicherheits-Setup",
+        "smartLighting": "Installation, Automatisierung, Sprachsteuerungs-Integration, Zeitplanung",
+        "heatingAutomation": "Smart-Thermostate, Zonensteuerung, Temperaturplanung, Fernzugriff",
+        "voiceControl": "Amazon Alexa, Google Home oder ähnliches Setup und Integration",
+        "deviceIntegration": "Smart-Geräte, Jalousien, Schlösser, Kameras und Kompatibilitätsprüfung",
+        "securitySetup": "Netzwerksicherheit, Verschlüsselung, Datenschutz, sichere Automatisierung",
+        "userTraining": "Systemübersicht, App-Training, grundlegende Fehlerbehebung",
+        "ongoingSupport": "Technischer Support, Updates, Optimierungsempfehlungen",
+        "timeline": "1-6 Wochen (abhängig von Umfang und Systemkomplexität)",
+        "priceRange": "Ab CHF 5.000 (Basis) bis CHF 30.000+ (umfassend)",
+        "scalability": "Starten Sie klein und erweitern Sie – Systeme für zukünftiges Wachstum konzipiert"
+      }
+    },
+    "service5": {
+      "title": "Projektmanagement & Beratung",
+      "highlight": "🎉 KOSTENLOSE Erstberatung – Unverbindlich, personalisierte Bewertung inbegriffen",
+      "problem": "Mehrere Gewerke, Lieferanten, Zeitpläne – wer koordiniert das alles? | Risiko von Verzögerungen, Budgetüberschreitungen, Qualitätsproblemen | Als Auswanderer ist die Navigation durch Schweizer Standards und Vorschriften verwirrend",
+      "solution": "End-to-End-Projektmanagement von Konzept bis Fertigstellung | Fachkundige Koordination aller Gewerke und Lieferanten | Kosten- und Zeitplankontrolle | Navigation durch Schweizer Baubestimmungen und lokale Anforderungen | Ihr stressfreier Partner durch den gesamten Prozess",
+      "included": "✓ Projektplanung & Umfangsdefinition | ✓ Gewerke- & Lieferantenkoordination | ✓ Kosten- & Zeitplanmanagement | ✓ Qualitätssicherung | ✓ Schweizer Code-Einhaltung | ✓ Behördliche Anleitung | ✓ Abnahme & Übergabe",
+      "scope": {
+        "initialConsultation": "KOSTENLOSE personalisierte Bewertung, Bedarfsklärung, Visionsverständnis",
+        "scopeDefinition": "Projektaufschlüsselung, Budgetschätzung, Zeitplanplanung",
+        "supplierTrade": "Bewertung, Empfehlungen, Vertragsverhandlung",
+        "costManagement": "Budget-Verfolgung, Preisoptimierung, Änderungsordnung-Handling",
+        "timelineManagement": "Planung, Koordination, Fortschrittsverfolgung, Verzögerungsmitigation",
+        "qualityAssurance": "Vor-Ort-Inspektionen, Verarbeitungsverifizierung, Problemlösung",
+        "swissCompliance": "Baubestimmungs-Anleitung, behördliche Anforderungen, Genehmigungshilfe",
+        "communication": "Regelmäßige Updates, Deutsch & Englisch Support, Kundenkommunikation",
+        "riskManagement": "Problemidentifikation und -prävention, Problemlösung",
+        "handoverAcceptance": "Abschließender Rundgang, Mängellisten-Vervollständigung, Kundenschulung",
+        "postProjectSupport": "Garantie-Nachverfolgung, Problemlösung, fortlaufende Beratung",
+        "projectTypes": "Einzelprojekte oder umfassende End-to-End-Renovierungen",
+        "timeline": "Variiert (folgt Projektumfang)",
+        "feeStructure": "Stundenhonorar (CHF 80-120/Stunde) ODER Projektpauschale"
+      }
+    },
+    "promise": "✓ Transparente Preisgestaltung – Keine Überraschungen, klare Aufschlüsselungen | ✓ Expertenlösungen – Richtig dimensionierter, intelligenter Ansatz (nicht überdimensioniert oder Standard) | ✓ Vertrauenspartner – Zuverlässige Lieferanten und Spezialisten | ✓ Ihr Anwalt – Wir verhandeln in Ihrem Sinne | ✓ Nahtlose Ausführung – End-to-End-Koordination, damit Sie sich entspannen können | ✓ Deutsch & Englisch – Klare Kommunikation durchgehend"
+  },
+
+  "blog": {
+    "mainFeaturedPost": {
+      "title": "Neueste Blog-Beiträge",
+      "description": "Einblicke und praktische Anleitungen für Wohnungsrenovierungen in Basel"
+    },
+    "featuredPost1": {
+      "title": "Warum Ihre Küche mehr als Standard-Lösungen verdient",
+      "date": "Bald verfügbar",
+      "description": "Die meisten Küchensanierungen folgen einem Standardansatz. Lernen Sie, wie intelligente Planung, die richtige Technologie und fachkundige Koordination Ihre Küche in einen modernen Raum verwandeln können, der perfekt zu Ihrem Lebensstil passt – und dabei Geld sparen.",
+      "topics": "Küchenmodernisierung, Wertoptimierung, Vermeidung teurer Fehler"
+    },
+    "featuredPost2": {
+      "title": "Ein Renovierungsleitfaden für Auswanderer in Basel",
+      "date": "Bald verfügbar",
+      "description": "Neu in Basel? Ihre Wohnungsrenovierung sollte nicht bedeuten, allein durch unbekannte lokale Standards und Lieferanten zu navigieren. Dieser Leitfaden führt Sie durch die Grundlagen: Verständnis Schweizer Baubestimmungen, Finden zuverlässiger Partner, Zeitplanverwaltung und informierte Entscheidungen.",
+      "topics": "Ratschläge für Auswanderer, lokales Marktwissen, praktische Anleitungen, Stressabbau"
+    }
+  },
+
+  "footer": {
+    "title": "Kontakt",
+    "description": "Ich bin nur eine Nachricht entfernt.",
+    "contactInformation": {
+      "owner": "Eigentümer:",
+      "ownerName": "Pascal Jaquiéry",
+      "email": "E-Mail:",
+      "emailAddress": "baselhomefixer@gmail.com",
+      "phoneNumber": "Telefonnummer:",
+      "showNumber": "0762059285"
+    },
+    "socialLinks": {
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "instagramHandle": "@basel-homefixer",
+      "linkedinProfile": "Pascal Jaquiéry"
+    }
   }
-  
 }
