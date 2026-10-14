@@ -1,0 +1,35 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Frontend: npm starten",
+            "type": "shell",
+            "command": "npm.cmd run start",
+            "options": { "cwd": "${workspaceFolder}" },
+            "isBackground": true,
+            "problemMatcher": {
+                "owner": "vite",
+                "pattern": {
+                    "regexp": "^(.*):(\\d+):(\\d+): (.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "column": 3,
+                    "message": 4
+                },
+                "background": {
+                    "activeOnStart": true,
+                    "beginsPattern": "VITE.*ready",
+                    "endsPattern": "Local:.*http://(localhost|127\\.0\\.0\\.1):5173"
+                }
+            }
+        },
+        {
+            "label": "Frontend: TypeScript pruefen",
+            "type": "shell",
+            "command": "npm.cmd run typecheck",
+            "options": { "cwd": "${workspaceFolder}/My-App_Frontend" },
+            "problemMatcher": "$tsc",
+            "group": "build"
+        }
+    ]
+}

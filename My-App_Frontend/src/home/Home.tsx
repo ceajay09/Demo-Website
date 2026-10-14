@@ -142,7 +142,7 @@ export default function Blog() {
           {/* 3 horizontale, quadratische Boxen */}
           <Grid container spacing={3}>
             {/* Linke Box: Featured Work + 4x4 Bilder */}
-            <Grid item xs={12} md={4}>
+            <Grid size={{ xs: 12, md: 4 }}>
               <Paper
                 elevation={4}
                 sx={{
@@ -201,7 +201,7 @@ export default function Blog() {
             </Grid>
 
             {/* Mittlere Box: Instagram Post */}
-            <Grid item xs={12} md={4}>
+            <Grid size={{ xs: 12, md: 4 }}>
               <Paper
                 elevation={4}
                 sx={{
@@ -263,7 +263,7 @@ export default function Blog() {
             </Grid>
 
             {/* Rechte Box: leer */}
-            <Grid item xs={12} md={4}>
+            <Grid size={{ xs: 12, md: 4 }}>
               <Paper
                 elevation={4}
                 sx={{

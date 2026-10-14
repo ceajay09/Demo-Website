@@ -16,7 +16,7 @@ export default function RealEstateForRent() {
   return (
     <Layout>
       <Container maxWidth="lg">
-        <Typography variant="h3" align="center" paddingTop={2} gutterBottom>
+        <Typography variant="h3" align="center" sx={{ pt: 2 }} gutterBottom>
         {t('realEstateForRent.title')}
         </Typography>
         <Accordion sx={{ p: 0, mb: 2 }}>
@@ -30,7 +30,7 @@ export default function RealEstateForRent() {
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
-          <Typography variant="body2" paragraph sx={{ fontStyle: 'italic' }}>
+          <Typography component="p" variant="body2" sx={{ mb: 2, fontStyle: 'italic' }}>
           {t('realEstateForRent.purpose.text')}
             </Typography>
           </AccordionDetails>
@@ -47,23 +47,23 @@ export default function RealEstateForRent() {
           </AccordionSummary>
           <AccordionDetails>  
               <Grid container spacing={2}>
-                <Grid item xs={12} sm={3} md={2} lg={1}>
-                  <Typography variant="body2" paragraph sx={{ fontStyle: 'italic' }}>
+                <Grid size={{ xs: 12, sm: 3, md: 2, lg: 1 }}>
+                  <Typography component="p" variant="body2" sx={{ mb: 2, fontStyle: 'italic' }}>
                   {t('realEstateForRent.contactInformation.owner')}
                   </Typography>
                 </Grid>
-                <Grid item xs={12} sm={9} md={10} lg={11}>
-                  <Typography variant="body2" paragraph sx={{ fontStyle: 'italic' }}>
+                <Grid size={{ xs: 12, sm: 9, md: 10, lg: 11 }}>
+                  <Typography component="p" variant="body2" sx={{ mb: 2, fontStyle: 'italic' }}>
                   {t('realEstateForRent.contactInformation.ownerName')}
                   </Typography>
                 </Grid>
-                <Grid item xs={12} sm={3} md={2} lg={1}>
-                  <Typography variant="body2" paragraph sx={{ fontStyle: 'italic' }}>
+                <Grid size={{ xs: 12, sm: 3, md: 2, lg: 1 }}>
+                  <Typography component="p" variant="body2" sx={{ mb: 2, fontStyle: 'italic' }}>
                   {t('realEstateForRent.contactInformation.email')}
                   </Typography>
                 </Grid>
-                <Grid item xs={12} sm={9} md={10} lg={11}>
-                  <Typography variant="body2" paragraph sx={{ fontStyle: 'italic' }}>
+                <Grid size={{ xs: 12, sm: 9, md: 10, lg: 11 }}>
+                  <Typography component="p" variant="body2" sx={{ mb: 2, fontStyle: 'italic' }}>
                   {t('realEstateForRent.contactInformation.emailAddress')}
                   </Typography>
                 </Grid>
@@ -80,7 +80,7 @@ export default function RealEstateForRent() {
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <Typography variant="body2" paragraph sx={{ fontStyle: 'italic' }}>
+            <Typography component="p" variant="body2" sx={{ mb: 2, fontStyle: 'italic' }}>
             {t('realEstateForRent.disclaimer.text')}
             </Typography>
           </AccordionDetails>

@@ -1,0 +1,21 @@
+name: demo-website-local
+services:
+  backend:
+    build: ./My-App_Backend
+    entrypoint: ["java", "-jar", "/my-app.jar"]
+    environment:
+      SPRING_PROFILES_ACTIVE: dev
+      SPRING_LOG_LEVEL: INFO
+    ports:
+      - "127.0.0.1:8081:8081"
+  traefik:
+    image: traefik:v3.6
+    command:
+      - --entrypoints.web.address=:80
+      - --providers.file.filename=/etc/traefik/routes.yaml
+      - --providers.file.watch=true
+      - --ping=true
+    ports:
+      - "127.0.0.1:80:80"
+    volumes:
+      - ./docker/traefik.local.yaml:/etc/traefik/routes.yaml:ro

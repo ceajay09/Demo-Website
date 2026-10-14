@@ -29,6 +29,7 @@
     "web-vitals": "^5.3.0"
   },
   "scripts": {
+    "typecheck": "tsc --noEmit",
     "dev": "env-cmd -f .env.development vite",
     "start": "vite",
     "build": "vite build",

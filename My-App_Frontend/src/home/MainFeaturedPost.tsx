@@ -55,7 +55,7 @@ export default function MainFeaturedPost(props: MainFeaturedPostProps) {
         }}>
           {post.title}
         </Typography>
-        <Typography variant="h5" color="inherit" paragraph sx={{
+        <Typography component="p" variant="h5" color="inherit" sx={{ mb: 2,
           opacity: 0, 
           zIndex: 2, 
         }}>

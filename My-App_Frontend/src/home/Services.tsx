@@ -61,21 +61,21 @@ export default function Services() {
       <CssBaseline />
       <ThemeProvider theme={theme}>
         <Container maxWidth="lg" style={{ marginBottom: '15px' }}>
-          <Typography variant="h3" align="center" paddingTop={2} gutterBottom>
+          <Typography variant="h3" align="center" sx={{ pt: 2 }} gutterBottom>
             {t('services.title')}
           </Typography>
           <Paper elevation={6} sx={{ p: 4, margin: 'auto', maxWidth: 936 }}>
             <Typography variant="h4" align="center" gutterBottom>
               {t('services.introduction.title')}
             </Typography>
-            <Typography variant="body1" paragraph>
+            <Typography sx={{ mb: 2 }} component="p" variant="body1">
               {t('services.introduction.text')}
             </Typography>
             <Typography variant="h4" align="center" gutterBottom>
               {t('services.technologiesAndToolsUsed.title')}
             </Typography>
 
-            <Box display="flex" justifyContent="center" margin={2} onClick={handleClickOpenOverview}>
+            <Box sx={{ display: "flex", justifyContent: "center", m: 2 }} onClick={handleClickOpenOverview}>
               <img src={`/assets/My-App-Overview.drawio.svg`} alt={t('services.technologiesAndToolsUsed.overviewImageAlt')}
                 style={{ width: '60%', height: 'auto' }} />
             </Box>
@@ -97,7 +97,7 @@ export default function Services() {
                 <CloseIcon />
               </IconButton>
               <DialogContent>
-                <Box display="flex" justifyContent="center" margin={2} onClick={handleClickOpenOverview}>
+                <Box sx={{ display: "flex", justifyContent: "center", m: 2 }} onClick={handleClickOpenOverview}>
                   <img src={`/assets/My-App-Overview.drawio.svg`} alt={t('services.technologiesAndToolsUsed.overviewImageAlt')}
                     style={{ width: '100%', maxHeight: '80vh', objectFit: 'contain' }} />
                 </Box>
@@ -107,14 +107,14 @@ export default function Services() {
             <Typography variant="h6" gutterBottom>
               {t('services.versionControlAndCiCd.title')}
             </Typography>
-            <Typography variant="body1" paragraph>
+            <Typography sx={{ mb: 2 }} component="p" variant="body1">
               {t('services.versionControlAndCiCd.text')}
             </Typography>
             <Typography variant="h6" gutterBottom>
               {t('services.awsInfrastructure.title')}
             </Typography>
 
-            <Box display="flex" justifyContent="center" margin={2} onClick={handleClickOpenDetail}>
+            <Box sx={{ display: "flex", justifyContent: "center", m: 2 }} onClick={handleClickOpenDetail}>
               <img src={`/assets/My-App-diagrams.drawio.svg`} alt={t('services.technologiesAndToolsUsed.awsDetailImageAlt')}
                 style={{ width: '60%', height: 'auto' }} />
             </Box>
@@ -136,32 +136,32 @@ export default function Services() {
                 <CloseIcon />
               </IconButton>
               <DialogContent>
-                <Box display="flex" justifyContent="center" margin={2} onClick={handleClickOpenDetail}>
+                <Box sx={{ display: "flex", justifyContent: "center", m: 2 }} onClick={handleClickOpenDetail}>
                   <img src={`/assets/My-App-diagrams.drawio.svg`} alt={t('services.technologiesAndToolsUsed.awsDetailImageAlt')}
                     style={{ width: '100%', maxHeight: '80vh', objectFit: 'contain' }} />
                 </Box>
               </DialogContent>
             </BootstrapDialog>
 
-            <Typography variant="body1" paragraph>
+            <Typography sx={{ mb: 2 }} component="p" variant="body1">
               {t('services.awsInfrastructure.text')}
             </Typography>
             <Typography variant="h6" gutterBottom>
               {t('services.frontendDevelopment.title')}
             </Typography>
-            <Typography variant="body1" paragraph>
+            <Typography sx={{ mb: 2 }} component="p" variant="body1">
               {t('services.frontendDevelopment.text')}
             </Typography>
             <Typography variant="h6" gutterBottom>
               {t('services.backendDevelopment.title')}
             </Typography>
-            <Typography variant="body1" paragraph>
+            <Typography sx={{ mb: 2 }} component="p" variant="body1">
               {t('services.backendDevelopment.text')}
             </Typography>
             <Typography variant="h6" gutterBottom>
               {t('services.dockerAndContainerization.title')}
             </Typography>
-            <Typography variant="body1" paragraph>
+            <Typography sx={{ mb: 2 }} component="p" variant="body1">
               {t('services.dockerAndContainerization.text')}
             </Typography>
               <Typography variant="body1" component="div">
@@ -174,13 +174,13 @@ export default function Services() {
             <Typography variant="h6" gutterBottom>
               {t('services.continuousMonitoringAndLoadBalancing.title')}
             </Typography>
-            <Typography variant="body1" paragraph>
+            <Typography sx={{ mb: 2 }} component="p" variant="body1">
               {t('services.continuousMonitoringAndLoadBalancing.text')}
             </Typography>
             <Typography variant="h4" gutterBottom>
               {t('services.repositoryAndCodeStructure.title')}
             </Typography>
-            <Typography variant="body1" paragraph>
+            <Typography sx={{ mb: 2 }} component="p" variant="body1">
               {t('services.repositoryAndCodeStructure.text')}
             </Typography>
             <Typography variant="body1" component="div">
@@ -195,7 +195,7 @@ export default function Services() {
             <Typography variant="h4" align="center" gutterBottom>
               {t('services.summary.title')}
             </Typography>
-            <Typography variant="body1" paragraph>
+            <Typography sx={{ mb: 2 }} component="p" variant="body1">
               {t('services.summary.text')}
             </Typography>
           </Paper>
