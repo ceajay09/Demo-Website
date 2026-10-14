@@ -9,7 +9,7 @@ export default function LatestPosts() { //TODO: Only Template
   return (
     <Layout>
       <Container maxWidth="lg">
-        <Typography variant="h3" align="center" paddingTop={2} gutterBottom>
+        <Typography variant="h3" align="center" sx={{ pt: 2 }} gutterBottom>
         LatestPosts
         </Typography>
 
@@ -18,7 +18,7 @@ export default function LatestPosts() { //TODO: Only Template
             <Typography variant="h6" gutterBottom sx={{ textDecoration: 'underline' }}>
               Purpose of the Website
             </Typography>
-            <Typography variant="subtitle1" paragraph sx={{ fontStyle: 'italic' }}>
+            <Typography component="p" variant="subtitle1" sx={{ mb: 2, fontStyle: 'italic' }}>
               This blog is dedicated to providing tips and advice for job applications.
             </Typography>
           </Paper>
@@ -30,23 +30,23 @@ export default function LatestPosts() { //TODO: Only Template
               Contact Information
             </Typography>
             <Grid container spacing={2}>
-            <Grid item xs={1}>
-                <Typography variant="subtitle1" paragraph sx={{ fontStyle: 'italic' }}>
+            <Grid size={{ xs: 1 }}>
+                <Typography component="p" variant="subtitle1" sx={{ mb: 2, fontStyle: 'italic' }}>
                   Owner:
                 </Typography>
               </Grid>
-              <Grid item xs={11}>
-                <Typography variant="subtitle1" paragraph sx={{ fontStyle: 'italic' }}>
+              <Grid size={{ xs: 11 }}>
+                <Typography component="p" variant="subtitle1" sx={{ mb: 2, fontStyle: 'italic' }}>
                   Surename Name
                 </Typography>
               </Grid>
-              <Grid item xs={1}>
-                <Typography variant="subtitle1" paragraph sx={{ fontStyle: 'italic' }}>
+              <Grid size={{ xs: 1 }}>
+                <Typography component="p" variant="subtitle1" sx={{ mb: 2, fontStyle: 'italic' }}>
                   Email:
                 </Typography>
               </Grid>
-              <Grid item xs={11}>
-                <Typography variant="subtitle1" paragraph sx={{ fontStyle: 'italic' }}>
+              <Grid size={{ xs: 11 }}>
+                <Typography component="p" variant="subtitle1" sx={{ mb: 2, fontStyle: 'italic' }}>
                   xxxx@gmail.com
                 </Typography>
               </Grid>
@@ -57,7 +57,7 @@ export default function LatestPosts() { //TODO: Only Template
               <Typography variant="h6" gutterBottom sx={{ textDecoration: 'underline' }}>
                 Disclaimer
               </Typography>
-                  <Typography variant="subtitle1" paragraph sx={{ fontStyle: 'italic' }}>
+                  <Typography component="p" variant="subtitle1" sx={{ mb: 2, fontStyle: 'italic' }}>
                   Information on this website is reviewed regularly but cannot guarantee its completeness, accuracy, or currentness.
                   </Typography>
             </Paper>

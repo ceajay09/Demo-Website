@@ -24,7 +24,7 @@ export default function FeaturedPost(props: FeaturedPostProps) {
   const { t } = useTranslation();
 
   return (
-    <Grid item xs={12} md={6}>
+    <Grid size={{ xs: 12, md: 6 }}>
       <CardActionArea component="a" href={post.url}>
         <Card sx={{ display: 'flex' }}>
           <CardContent sx={{ flex: 1 }}>
@@ -34,7 +34,7 @@ export default function FeaturedPost(props: FeaturedPostProps) {
             <Typography variant="subtitle1" color="text.secondary">
               {post.date}
             </Typography>
-            <Typography variant="subtitle1" paragraph>
+            <Typography sx={{ mb: 2 }} component="p" variant="subtitle1">
               {post.description}
             </Typography>
             <Typography variant="subtitle1" color="primary">

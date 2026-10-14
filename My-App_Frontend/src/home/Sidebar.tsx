@@ -19,7 +19,7 @@ export default function Sidebar(props: SidebarProps) {
   const { description, social, title } = props;
 
   return (
-    <Grid item xs={12} md={4}>
+    <Grid size={{ xs: 12, md: 4 }}>
       <Paper elevation={0} sx={{ p: 2, bgcolor: 'grey.200' }}>
         <Typography variant="h6" gutterBottom>
           {title}
@@ -31,14 +31,13 @@ export default function Sidebar(props: SidebarProps) {
       </Typography>
       {social.map((network) => (
         <Link
-          display="block"
           variant="body1"
           href={network.url}
           key={network.name}
-          sx={{ mb: 0.5 }}
+          sx={{ display: 'block', mb: 0.5 }}
           target="_blank"
         >
-          <Stack direction="row" spacing={1} alignItems="center">
+          <Stack direction="row" spacing={1} sx={{ alignItems: "center" }}>
             <network.icon />
             <span>{network.name}</span>
           </Stack>

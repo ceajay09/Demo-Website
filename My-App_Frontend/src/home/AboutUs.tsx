@@ -28,11 +28,11 @@ export default function AboutUs() {
     <Layout>
       <main>
         <Container maxWidth="lg">
-          <Typography variant="h3" align="center" paddingTop={2} gutterBottom>
+          <Typography variant="h3" align="center" sx={{ pt: 2 }} gutterBottom>
             {t('aboutUs.title')}
           </Typography>
           <Grid container spacing={3}>
-            <Grid item xs={12} md={5}>
+            <Grid size={{ xs: 12, md: 5 }}>
               <Paper elevation={4} sx={{ p: 2, mb: 2 }}>
                 <img src={`/assets/Passfoto.jpg`} alt="Image of myself" style={{ width: '100%', height: 'auto' }} />
               </Paper>
@@ -104,7 +104,7 @@ export default function AboutUs() {
                 </Typography>
               </Paper>
             </Grid>
-            <Grid item xs={12} md={7}>
+            <Grid size={{ xs: 12, md: 7 }}>
               <Paper elevation={4} sx={{ p: 2, mb: 2 }}>
                 <Typography variant="h6" gutterBottom>{t('aboutUs.hello')}</Typography>
                 <Accordion sx={{ p: 0, mb: 2 }}>
@@ -208,7 +208,7 @@ export default function AboutUs() {
                   {t('aboutUs.moreDetails')}
                 </Link> */}
               </Paper>
-              <Grid item xs={12} md={4}>
+              <Grid size={{ xs: 12, md: 4 }}>
               </Grid>
             </Grid>
           </Grid>

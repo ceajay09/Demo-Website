@@ -2,7 +2,6 @@ import * as React from 'react';
 import Link from '@mui/material/Link';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import { Grid2ClassKey } from '@mui/material';
 import { Container, Grid, Paper, Box, Typography, CssBaseline, ThemeProvider } from '@mui/material';
 
 function Copyright() {
@@ -37,14 +36,14 @@ export default function Footer(props: FooterProps) {
         <Typography variant="h6" align="center" gutterBottom>
           {title}
         </Typography>
-        <Grid container alignItems="center" justifyContent="center" >
+        <Grid container sx={{ alignItems: "center", justifyContent: "center" }} >
           {/* Linkes Icon */}
-          <Grid item xs>
+          <Grid size="grow">
             <Link href={socialLinks[0].url} target="_blank" sx={{ display: 'flex', justifyContent: 'flex-end' }}>
               {React.createElement(socialLinks[0].Icon, { style: { fontSize: '50px' } })}
             </Link>
           </Grid>
-          <Grid item xs={6}>
+          <Grid size={{ xs: 6 }}>
             <Typography
               variant="subtitle1"
               align="center"
@@ -57,7 +56,7 @@ export default function Footer(props: FooterProps) {
               </Link>
             </Typography>
           </Grid>
-          <Grid item xs>
+          <Grid size="grow">
             <Link href={socialLinks[1].url} target="_blank" sx={{ display: 'flex', justifyContent: 'flex-start' }}>
               {React.createElement(socialLinks[1].Icon, { style: { fontSize: '50px' } })}
             </Link>

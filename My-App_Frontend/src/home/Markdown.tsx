@@ -31,12 +31,13 @@ const options = {
       props: {
         gutterBottom: true,
         variant: 'caption',
-        paragraph: true,
+        component: 'h4',
+        sx: { mb: 2 },
       },
     },
     p: {
       component: Typography,
-      props: { paragraph: true },
+      props: { component: 'p', sx: { mb: 2 } },
     },
     a: { component: Link },
     li: {
