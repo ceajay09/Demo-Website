@@ -1,194 +1,258 @@
 {
-  "contactInformation": {
-    "owner": "Pascal Jaquiéry",
-    "ownerName": "Pascal Jaquiéry",
-    "email": "baselhomefixer@gmail.com",
-    "phoneNumber": "0762059285",
-    "basedIn": "Basel, Switzerland",
-    "disclaimer": "Information on this website is reviewed regularly but cannot guarantee its completeness, accuracy, or currentness."
+  "aboutUs": {
+    "title": "About Us",
+    "contactDetails": "Contact details",
+    "qualification": "Qualification:",
+    "qualificationDetail": "Project Manager, Certified Electrician | 16 years experience | Specialties: Heating Systems, Kitchens, Flooring, Bathrooms, Smart Home",
+    "age": "Age:",
+    "ageDetail": "35",
+    "phoneNumber": "Phone number:",
+    "showNumber": "Show number",
+    "email": "Email:",
+    "basedIn": "Based in:",
+    "basedInDetail": "Basel, Switzerland",
+    "downloadCV": "Download CV",
+    "interests": "Areas of focus",
+    "interestList": "Heating systems, Kitchen renovation, Flooring, Bathrooms, Smart Home",
+    "hello": "Hello, I’m Pascal Jaquiéry.",
+    "techJourney": "My background",
+    "techJourneyDetail": "Hello! I'm Pascal Jaquiéry, a certified electrician and project manager with 16 years of hands-on experience in residential renovations. I specialize in transforming small apartments and homes with a focus on intelligent, cost-effective solutions. My expertise spans heating systems, kitchens, flooring, bathrooms, and Smart Home integration—all delivered end-to-end, from concept to completion.\n\nMy journey began with hands-on electrical work and evolved into comprehensive project management. Over 16 years, I've guided many diverse clients from around the world through complete home renovations, learning that success lies in understanding both technical excellence and the customer's vision. This experience revealed a gap: expatriates and homeowners in Basel struggle with local standards, suppliers, and project coordination. I founded Basel Home Fixer to bridge this gap—combining practical execution with expert consulting.",
+    "keySkills": "Key skills",
+    "keySkillsDetail": "✓ Certified Electrician | ✓ Project Management (End-to-End) | ✓ Heating Systems Design & Installation | ✓ Kitchen & Bathroom Renovation | ✓ Flooring Specialists | ✓ Smart Home Integration | ✓ Cost & Timeline Control | ✓ Client-Centric Consulting | ✓ German & English (seamless communication)",
+    "continuousLearning": "Continuous learning",
+    "continuousLearningDetail": "The construction and home improvement industry evolves constantly—new technologies, materials, and smart home solutions emerge regularly. I stay current through industry certifications, supplier partnerships, and hands-on projects. My focus: mastering the latest heating technologies, Smart Home automation, and sustainable building practices to deliver cutting-edge solutions to my clients.",
+    "careerGoals": "My goals",
+    "careerGoalsDetail": "My vision is to establish Basel Home Fixer as the trusted advisor for expats and homeowners seeking transparent, expert guidance on home renovations. I aim to build a network of reliable, vetted specialists and expand into sustainable home solutions. Ultimately, I want every client to feel confident, supported, and delighted with their home transformation—not just fixed, but elevated.",
+    "projects": "Projects",
+    "bachelorThesis": "Kitchen Modernization – Gas to Electric Conversion",
+    "bachelorThesisDetail": "Renovating an older residential kitchen while converting infrastructure from gas to electric—a complex undertaking with multiple systems to integrate.\n\nCHF 37,000 total investment | Customer gained a fully modern, energy-efficient kitchen with layout that perfectly fits their lifestyle\n\nA generic contractor would have installed a standard kitchen. Our expertise ensured the right systems, layout, and cost optimization.",
+    "bachelorThesisTasks": "Complete infrastructure upgrade: Gas to electric conversion, New water and energy systems (right-sized for actual needs), Modern lighting design with smart integration potential, Custom kitchen layout in partnership with Wohnpark Binzen, Strategic price negotiations that optimized value without compromising quality",
+    "practicalProject": "Balcony Glazing – Seamless Project Execution",
+    "practicalProjectDetail": "Transform an open balcony into an enclosed, weather-protected space through complete planning, measurement, production coordination, and installation.\n\nCHF 12,000 investment | Expanded usable living space with professional results\n\nEnd-to-end management removes stress from the customer. We handle every phase so you enjoy the result.",
+    "practicalProjectTasks": "Detailed planning and precise measurements, Production coordination with reliable partners, Professional installation ensuring structural integrity and weatherproofing",
+    "moreDetails": "More details..."
   },
-
+  "blog": {
+    "mainFeaturedPost": {
+      "title": "Latest Blog Posts",
+      "description": "Insights and practical guidance for home renovations in Basel",
+      "imageText": "main image description",
+      "linkText": "See full CV..."
+    },
+    "featuredPost1": {
+      "title": "Why Your Kitchen Deserves More Than Standard Solutions",
+      "date": "Coming Soon",
+      "description": "Most kitchen renovations follow a one-size-fits-all approach. Learn how intelligent planning, the right technology, and expert coordination can transform your kitchen into a modern space that perfectly fits your lifestyle—while saving money in the process.",
+      "imageLabel": "Diagram AWS Infrastructure"
+    },
+    "featuredPost2": {
+      "title": "A Guide to Home Renovation for Expats in Basel",
+      "date": "Coming Soon",
+      "description": "New to Basel? Renovating your home shouldn't mean navigating unfamiliar local standards and suppliers alone. This guide walks you through the essentials: understanding Swiss building codes, finding reliable partners, managing timelines, and making informed decisions.",
+      "imageLabel": "Screenshot AboutUs-Tab"
+    },
+    "sidebar": {
+      "title": "Basel Home Fixer",
+      "description": "Project Manager, Certified Electrician | 16 years experience | Specialties: Heating Systems, Kitchens, Flooring, Bathrooms, Smart Home"
+    },
+    "leftBox": {
+      "title": "Featured work"
+    },
+    "middleBox": {
+      "title": "Instagram"
+    },
+    "rightBox": {
+      "topText": "Services",
+      "bottomText": "Contact"
+    },
+    "introText": "Basel Home Fixer – home renovations and expert advice in Basel.",
+    "outroText": "✓ Transparent Pricing – No surprises, clear breakdowns | ✓ Expert Solutions – Right-sized, intelligent approach (not oversized or standard) | ✓ Trusted Partners – Reliable suppliers and specialists | ✓ Your Advocate – We negotiate on your behalf | ✓ Seamless Execution – End-to-end coordination so you don't have to | ✓ German & English – Clear communication throughout"
+  },
+  "services": {
+    "title": "About this website",
+    "introduction": {
+      "title": "Introduction",
+      "text": "This personal webpage serves as a platform to introduce myself and provide a detailed overview of the technologies and methodologies used in its development. It reflects my technical prowess in web development, illustrating a proficient use of various tools from front to back end. For additional details, please see the GitHub account linked in the footer."
+    },
+    "technologiesAndToolsUsed": {
+      "title": "Technologies and Tools Used",
+      "overviewImageAlt": "CI/CD-Overview diagram",
+      "awsDetailImageAlt": "AWS-Detail diagram"
+    },
+    "versionControlAndCiCd": {
+      "title": "Version Control and CI/CD",
+      "text": "Git with GitHub is used for version control, allowing effective management and tracking of codebase changes. A CI/CD pipeline is set up to link the GitHub repository directly to AWS. This setup automates the deployment process, where new code commits to the main branch trigger automatic Docker image creation and updates are pushed to the AWS repository."
+    },
+    "awsInfrastructure": {
+      "title": "AWS Infrastructure",
+      "text": "Initially, the deployment architecture on AWS consisted of two EC2 instances with load balancing to optimize load distribution and enhance availability. Recently, I transitioned to Fargate to reduce costs while maintaining performance and scalability. An HTTPS certificate on AWS ensures that all data transferred between the user and the server is securely encrypted."
+    },
+    "frontendDevelopment": {
+      "title": "Frontend Development",
+      "text": "The frontend uses Material UI templates for a modern aesthetic and was further developed in TypeScript. It is hosted on an Nginx server, chosen for its performance and reliability."
+    },
+    "backendDevelopment": {
+      "title": "Backend Development",
+      "text": "The backend is contained within Docker environments, promoting consistency across development and production setups. It is developed using Spring Boot and integrated with MongoDB for database management. Spring Security will be integrated in the next steps."
+    },
+    "dockerAndContainerization": {
+      "title": "Docker and Containerization",
+      "text": "Docker Compose manages the multi-container Docker applications:",
+      "backendService": "This service is based on Spring Boot, configured with necessary environment variables for database connections, and logs directed to AWS CloudWatch for monitoring.",
+      "frontendService": "This service handles the React-based frontend, running on Nginx, with logs also managed via AWS CloudWatch.",
+      "traefikService": "Directs network traffic to the appropriate backend or frontend service and is configured for HTTP traffic management."
+    },
+    "continuousMonitoringAndLoadBalancing": {
+      "title": "Continuous Monitoring and Load Balancing",
+      "text": "AWS and Traefik ensure smooth traffic management and SSL/TLS configurations, with Traefik directing HTTP traffic and AWS handling HTTPS security. This strategic setup helps distribute user load and manage traffic spikes efficiently across servers."
+    },
+    "repositoryAndCodeStructure": {
+      "title": "Repository and Code Structure",
+      "text": "The codebase is designed to clarify functionality and enhance maintainability:",
+      "config": "Settings for security and operational behaviors are defined here.",
+      "controllers": "These handle the logic for HTTP request and response operations.",
+      "services": "Business logic for functionalities such as user account management and blog operations is located here.",
+      "repositories": "These interact with MongoDB to manage data operations.",
+      "models": "Data structures within the application are defined in this section."
+    },
+    "summary": {
+      "title": "Summary",
+      "text": "Designed for robustness, security, and responsiveness, this webpage leverages state-of-the-art technology in software development. It embodies my capability as a software developer, prepared to address professional challenges in the technology sector."
+    }
+  },
+  "realEstateForRent": {
+    "title": "Contact information",
+    "purpose": {
+      "title": "Purpose of the Website",
+      "text": "This website introduces Basel Home Fixer and its work."
+    },
+    "contactInformation": {
+      "title": "Contact Information",
+      "owner": "Owner:",
+      "ownerName": "Pascal Jaquiéry",
+      "email": "Email:",
+      "emailAddress": "baselhomefixer@gmail.com"
+    },
+    "disclaimer": {
+      "title": "Disclaimer",
+      "text": "Information on this website is reviewed regularly but cannot guarantee its completeness, accuracy, or currentness."
+    }
+  },
   "layout": {
     "headerTitle": "basel-homefixer",
     "sections": {
       "home": "Home",
       "aboutUs": "About Us",
       "services": "Services",
-      "projects": "Projects",
-      "blog": "Blog"
-    }
-  },
-
-  "aboutUs": {
-    "title": "About Us",
-    "name": "Pascal Jaquiéry",
-    "age": "35",
-    "qualification": "Project Manager, Certified Electrician | 16 years experience | Specialties: Heating Systems, Kitchens, Flooring, Bathrooms, Smart Home",
-    "hello": "Hello! I'm Pascal Jaquiéry, a certified electrician and project manager with 16 years of hands-on experience in residential renovations. I specialize in transforming small apartments and homes with a focus on intelligent, cost-effective solutions. My expertise spans heating systems, kitchens, flooring, bathrooms, and Smart Home integration—all delivered end-to-end, from concept to completion.",
-    "techJourney": "My journey began with hands-on electrical work and evolved into comprehensive project management. Over 16 years, I've guided many diverse clients from around the world through complete home renovations, learning that success lies in understanding both technical excellence and the customer's vision. This experience revealed a gap: expatriates and homeowners in Basel struggle with local standards, suppliers, and project coordination. I founded Basel Home Fixer to bridge this gap—combining practical execution with expert consulting.",
-    "keySkills": "✓ Certified Electrician | ✓ Project Management (End-to-End) | ✓ Heating Systems Design & Installation | ✓ Kitchen & Bathroom Renovation | ✓ Flooring Specialists | ✓ Smart Home Integration | ✓ Cost & Timeline Control | ✓ Client-Centric Consulting | ✓ German & English (seamless communication)",
-    "continuousLearning": "The construction and home improvement industry evolves constantly—new technologies, materials, and smart home solutions emerge regularly. I stay current through industry certifications, supplier partnerships, and hands-on projects. My focus: mastering the latest heating technologies, Smart Home automation, and sustainable building practices to deliver cutting-edge solutions to my clients.",
-    "careerGoals": "My vision is to establish Basel Home Fixer as the trusted advisor for expats and homeowners seeking transparent, expert guidance on home renovations. I aim to build a network of reliable, vetted specialists and expand into sustainable home solutions. Ultimately, I want every client to feel confident, supported, and delighted with their home transformation—not just fixed, but elevated."
-  },
-
-  "projects": {
-    "title": "Projects",
-    "introduction": "Beyond Standard Solutions – Three Real Projects Delivered. What sets Basel Home Fixer apart is not just execution—it's intelligent solutions. We don't apply standard approaches; we identify what your specific situation needs and deliver accordingly. This often saves money, prevents future problems, and delivers results that exceed expectations.",
-    "project1": {
-      "title": "Kitchen Modernization – Gas to Electric Conversion",
-      "challenge": "Renovating an older residential kitchen while converting infrastructure from gas to electric—a complex undertaking with multiple systems to integrate.",
-      "solution": "Complete infrastructure upgrade: Gas to electric conversion | New water and energy systems (right-sized for actual needs) | Modern lighting design with smart integration potential | Custom kitchen layout in partnership with Wohnpark Binzen | Strategic price negotiations that optimized value without compromising quality",
-      "result": "CHF 37,000 total investment | Customer gained a fully modern, energy-efficient kitchen with layout that perfectly fits their lifestyle",
-      "valueDelivered": "A generic contractor would have installed a standard kitchen. Our expertise ensured the right systems, layout, and cost optimization."
+      "realEstateForRent": "Property rental",
+      "contactUs": "Contact us"
     },
-    "project2": {
-      "title": "Balcony Glazing – Seamless Project Execution",
-      "challenge": "Transform an open balcony into an enclosed, weather-protected space through complete planning, measurement, production coordination, and installation.",
-      "solution": "Detailed planning and precise measurements | Production coordination with reliable partners | Professional installation ensuring structural integrity and weatherproofing",
-      "result": "CHF 12,000 investment | Expanded usable living space with professional results",
-      "valueDelivered": "End-to-end management removes stress from the customer. We handle every phase so you enjoy the result."
+    "footer": {
+      "title": "Contact",
+      "description": "I'm just a message away."
     },
-    "project3": {
-      "title": "Heating System Modernization – Multi-Building Technical Excellence",
-      "challenge": "Upgrade heating infrastructure across 2 apartment buildings (18 units total) and replace all individual distributor units—a complex, coordinated project requiring technical expertise and attention to detail.",
-      "solution": "Modern heating system design and installation (Rosenmund) | Heat meter integration for cost control (Rapp) | Complete replacement of 18 individual distributor units | Coordination across two buildings with minimal disruption to residents",
-      "result": "CHF 60,000 investment | Energy-efficient heating, tenant cost transparency, future-proof infrastructure",
-      "valueDelivered": "A standard handyman would miss critical details. Our expertise detected issues that would have caused problems later, saving the owner significant future costs and tenant complaints."
-    },
-    "whyMatter": "✓ Complexity: Multiple trades, partners, and phases coordinated seamlessly | ✓ Innovation: Right-sized solutions (not oversized, not undersized) | ✓ Prevention: Expertise that identifies and prevents costly future issues | ✓ Trust: Clients confident they're getting the newest, most appropriate technology | ✓ Value: Investment in expert guidance pays for itself through savings and quality"
-  },
-
-  "services": {
-    "title": "Services",
-    "introduction": "Whether you're a new expat, a homeowner planning renovations, or managing multiple properties in Basel, home improvements can feel overwhelming. We transform complexity into clarity with expert guidance, transparent pricing, and intelligent solutions. Here's how we help:",
-    "service1": {
-      "title": "Kitchen Renovation & Modernization",
-      "problem": "Old kitchen with outdated infrastructure (gas systems, poor lighting, inefficient layout) | Don't know where to start or who to trust | Fear of hidden costs and surprises",
-      "solution": "Complete kitchen transformation: infrastructure upgrades, modern systems, custom layouts | Expert consultation with trusted supplier partners (Wohnpark Binzen) | Transparent pricing and cost optimization | From planning to final installation—we manage everything",
-      "included": "✓ Layout design & consultation | ✓ System upgrades (gas→electric, water, energy) | ✓ Modern lighting | ✓ Tile & finishing work | ✓ Supplier coordination & price negotiation",
-      "scope": {
-        "consultation": "Initial assessment, needs analysis, layout design, 3D visualization concepts",
-        "infrastructure": "Gas to electric conversion, water systems, electrical rewiring, drainage optimization",
-        "modernSystems": "New appliances, modern lighting design, smart lighting options, ventilation",
-        "materialsFinishing": "Tile selection, wall finishes, countertops, cabinet hardware, paint/coating",
-        "supplierCoordination": "Partner with trusted suppliers (Wohnpark Binzen, others), price negotiation, quality assurance",
-        "installation": "Professional installation of all components, finishing work, cleanup",
-        "timeline": "Typical duration: 6-12 weeks (depends on scope)",
-        "priceRange": "Starting CHF 25,000 (varies by scope)",
-        "warranty": "Materials & workmanship warranty included"
-      }
-    },
-    "service2": {
-      "title": "Energy Renovation & Efficiency",
-      "problem": "High heating and energy costs | Old building systems that are inefficient | Don't understand what improvements are actually worth it",
-      "solution": "Smart energy audits identifying where you're losing money | Right-sized heating systems, insulation, and technology upgrades | Heat meter integration for transparent cost allocation | Solutions that pay for themselves through savings",
-      "included": "✓ Energy assessment | ✓ Heating system optimization | ✓ Insulation improvements | ✓ Heat meter installation | ✓ ROI analysis | ✓ Long-term cost control",
-      "scope": {
-        "energyAudit": "Building assessment, thermal imaging, system inspection, efficiency analysis",
-        "recommendations": "Priority improvements, cost-benefit analysis, ROI calculations",
-        "heatingOptimization": "System design, efficiency upgrades, thermostat installation, control systems",
-        "insulation": "Roof insulation, window upgrades, thermal bridge analysis, weatherproofing",
-        "heatMeters": "Installation for cost transparency, monitoring setup",
-        "materialSelection": "Eco-friendly, high-efficiency options aligned with Swiss standards",
-        "installation": "Professional installation, testing, calibration",
-        "postProjectSupport": "System optimization, cost tracking, ongoing efficiency recommendations",
-        "timeline": "4-16 weeks (depends on scope and complexity)",
-        "priceRange": "Starting CHF 15,000 (varies significantly by scope)",
-        "savingsPotential": "Typically 20-40% reduction in energy costs"
-      }
-    },
-    "service3": {
-      "title": "Heating Systems – Design & Installation",
-      "problem": "Old heating system breaking down or unreliable | Unclear pricing and installation process | Multi-unit buildings = complex coordination",
-      "solution": "Modern heating systems with transparent cost structures | Heat meter installation for individual cost transparency (important for tenants) | Reliable partner coordination (Rosenmund, Rapp) | Seamless installation with minimal disruption",
-      "included": "✓ System design | ✓ Professional installation | ✓ Heat meter integration | ✓ Multi-building coordination | ✓ Warranty & support",
-      "scope": {
-        "assessment": "Current system evaluation, capacity analysis, efficiency review",
-        "designPlanning": "Modern system selection (Rosenmund, others), layout design, capacity sizing",
-        "heatMeterIntegration": "Rapp heat meters, individual unit metering, cost allocation setup",
-        "installation": "Professional installation, piping, connections, safety checks",
-        "multiUnitCoordination": "Apartment building support, minimal tenant disruption, centralized scheduling",
-        "testingCommissioning": "System testing, optimization, performance verification",
-        "documentation": "Manuals, warranty info, system controls training",
-        "tenantSupport": "Installation for multi-unit buildings, cost transparency education",
-        "timeline": "4-12 weeks (depends on building size and complexity)",
-        "priceRange": "CHF 15,000-100,000+ (depends on building size and system complexity)",
-        "warranty": "Full manufacturer warranty + installation guarantee"
-      }
-    },
-    "service4": {
-      "title": "Smart Home Integration",
-      "problem": "Technology feels overwhelming and expensive | Don't know what's actually useful vs. gimmicky | Worried about compatibility and future-proofing",
-      "solution": "Smart home solutions designed for real-world use (not just 'cool gadgets') | Integration with your existing systems | Voice control, automated lighting, heating, and connectivity | Future-proof design that grows with your needs",
-      "included": "✓ Smart home design & consultation | ✓ WiFi optimization | ✓ Smart lighting & automation | ✓ Voice control setup | ✓ Integration with heating & appliances | ✓ Ongoing support",
-      "scope": {
-        "consultation": "Needs assessment, technology overview, realistic use cases",
-        "wifiConnectivity": "Network assessment, optimization, coverage improvement, security setup",
-        "smartLighting": "Installation, automation, voice control integration, scheduling",
-        "heatingAutomation": "Smart thermostats, zone control, temperature scheduling, remote access",
-        "voiceControl": "Amazon Alexa, Google Home, or similar setup and integration",
-        "deviceIntegration": "Smart appliances, blinds, locks, cameras, and compatibility verification",
-        "securitySetup": "Network security, encryption, data privacy, safe automation",
-        "userTraining": "System walkthrough, app training, troubleshooting basics",
-        "ongoingSupport": "Technical support, updates, optimization recommendations",
-        "timeline": "1-6 weeks (depends on scope and system complexity)",
-        "priceRange": "Starting CHF 5,000 (basic) to CHF 30,000+ (comprehensive)",
-        "scalability": "Start small and expand—systems designed for future growth"
-      }
-    },
-    "service5": {
-      "title": "Project Management & Consulting",
-      "highlight": "🎉 FREE Initial Consultation – No obligation, personalized assessment included",
-      "problem": "Multiple trades, suppliers, timelines—who coordinates it all? | Risk of delays, budget overruns, quality issues | As an expat, navigating Swiss standards and regulations is confusing",
-      "solution": "End-to-end project management from concept to completion | Expert coordination of all trades and suppliers | Cost and timeline control | Navigation of Swiss building codes and local requirements | Your stress-free partner through the entire process",
-      "included": "✓ Project planning & scoping | ✓ Supplier & trade coordination | ✓ Timeline & budget management | ✓ Quality assurance | ✓ Swiss code compliance | ✓ Regulatory guidance | ✓ Final acceptance & handover",
-      "scope": {
-        "initialConsultation": "FREE personalized assessment, needs clarification, vision understanding",
-        "scopeDefinition": "Project breakdown, budget estimation, timeline planning",
-        "supplierTrade": "Vetting, recommendations, contract negotiation",
-        "costManagement": "Budget tracking, price optimization, change order handling",
-        "timelineManagement": "Scheduling, coordination, progress tracking, delay mitigation",
-        "qualityAssurance": "On-site inspections, workmanship verification, issue resolution",
-        "swissCompliance": "Building code guidance, regulatory requirements, permit assistance",
-        "communication": "Regular updates, German & English support, client liaison",
-        "riskManagement": "Issue identification and prevention, problem-solving",
-        "handoverAcceptance": "Final walkthrough, punch-list completion, client education",
-        "postProjectSupport": "Warranty follow-up, issue resolution, ongoing advice",
-        "projectTypes": "Single projects or end-to-end comprehensive renovations",
-        "timeline": "Varies (follows project scope)",
-        "feeStructure": "Hourly consulting (CHF 80-120/hour) OR Project-based fees"
-      }
-    },
-    "promise": "✓ Transparent Pricing – No surprises, clear breakdowns | ✓ Expert Solutions – Right-sized, intelligent approach (not oversized or standard) | ✓ Trusted Partners – Reliable suppliers and specialists | ✓ Your Advocate – We negotiate on your behalf | ✓ Seamless Execution – End-to-end coordination so you don't have to | ✓ German & English – Clear communication throughout"
-  },
-
-  "blog": {
-    "mainFeaturedPost": {
-      "title": "Latest Blog Posts",
-      "description": "Insights and practical guidance for home renovations in Basel"
-    },
-    "featuredPost1": {
-      "title": "Why Your Kitchen Deserves More Than Standard Solutions",
-      "date": "Coming Soon",
-      "description": "Most kitchen renovations follow a one-size-fits-all approach. Learn how intelligent planning, the right technology, and expert coordination can transform your kitchen into a modern space that perfectly fits your lifestyle—while saving money in the process.",
-      "topics": "Kitchen modernization, value optimization, avoiding costly mistakes"
-    },
-    "featuredPost2": {
-      "title": "A Guide to Home Renovation for Expats in Basel",
-      "date": "Coming Soon",
-      "description": "New to Basel? Renovating your home shouldn't mean navigating unfamiliar local standards and suppliers alone. This guide walks you through the essentials: understanding Swiss building codes, finding reliable partners, managing timelines, and making informed decisions.",
-      "topics": "Expat-focused advice, local market knowledge, practical guidance, reducing stress"
-    }
-  },
-
-  "footer": {
-    "title": "Contact",
-    "description": "I'm just a message away.",
-    "email": "baselhomefixer@gmail.com",
-    "phone": "0762059285",
     "socialLinks": {
-      "instagram": "basel-homefixer",
-      "linkedin": "Pascal Jaquiéry"
+      "github": "GitHub",
+      "linkedin": "LinkedIn"
+    }
+  },
+  "featuredPost": {
+    "linkText": "Learn more..."
+  },
+  "_unused": {
+    "_note": "Preserved content without a suitable place in the current UI. JSON does not allow comments. Keys record original paths; this content is not displayed.",
+    "originalValues": {
+      "contactInformation.phoneNumber": "0762059285",
+      "projects.introduction": "Beyond Standard Solutions – Three Real Projects Delivered. What sets Basel Home Fixer apart is not just execution—it's intelligent solutions. We don't apply standard approaches; we identify what your specific situation needs and deliver accordingly. This often saves money, prevents future problems, and delivers results that exceed expectations.",
+      "projects.project1.solution": "Complete infrastructure upgrade: Gas to electric conversion | New water and energy systems (right-sized for actual needs) | Modern lighting design with smart integration potential | Custom kitchen layout in partnership with Wohnpark Binzen | Strategic price negotiations that optimized value without compromising quality",
+      "projects.project2.solution": "Detailed planning and precise measurements | Production coordination with reliable partners | Professional installation ensuring structural integrity and weatherproofing",
+      "projects.project3.title": "Heating System Modernization – Multi-Building Technical Excellence",
+      "projects.project3.challenge": "Upgrade heating infrastructure across 2 apartment buildings (18 units total) and replace all individual distributor units—a complex, coordinated project requiring technical expertise and attention to detail.",
+      "projects.project3.solution": "Modern heating system design and installation (Rosenmund) | Heat meter integration for cost control (Rapp) | Complete replacement of 18 individual distributor units | Coordination across two buildings with minimal disruption to residents",
+      "projects.project3.result": "CHF 60,000 investment | Energy-efficient heating, tenant cost transparency, future-proof infrastructure",
+      "projects.project3.valueDelivered": "A standard handyman would miss critical details. Our expertise detected issues that would have caused problems later, saving the owner significant future costs and tenant complaints.",
+      "projects.whyMatter": "✓ Complexity: Multiple trades, partners, and phases coordinated seamlessly | ✓ Innovation: Right-sized solutions (not oversized, not undersized) | ✓ Prevention: Expertise that identifies and prevents costly future issues | ✓ Trust: Clients confident they're getting the newest, most appropriate technology | ✓ Value: Investment in expert guidance pays for itself through savings and quality",
+      "services.introduction": "Whether you're a new expat, a homeowner planning renovations, or managing multiple properties in Basel, home improvements can feel overwhelming. We transform complexity into clarity with expert guidance, transparent pricing, and intelligent solutions. Here's how we help:",
+      "services.service1.title": "Kitchen Renovation & Modernization",
+      "services.service1.problem": "Old kitchen with outdated infrastructure (gas systems, poor lighting, inefficient layout) | Don't know where to start or who to trust | Fear of hidden costs and surprises",
+      "services.service1.solution": "Complete kitchen transformation: infrastructure upgrades, modern systems, custom layouts | Expert consultation with trusted supplier partners (Wohnpark Binzen) | Transparent pricing and cost optimization | From planning to final installation—we manage everything",
+      "services.service1.included": "✓ Layout design & consultation | ✓ System upgrades (gas→electric, water, energy) | ✓ Modern lighting | ✓ Tile & finishing work | ✓ Supplier coordination & price negotiation",
+      "services.service1.scope.consultation": "Initial assessment, needs analysis, layout design, 3D visualization concepts",
+      "services.service1.scope.infrastructure": "Gas to electric conversion, water systems, electrical rewiring, drainage optimization",
+      "services.service1.scope.modernSystems": "New appliances, modern lighting design, smart lighting options, ventilation",
+      "services.service1.scope.materialsFinishing": "Tile selection, wall finishes, countertops, cabinet hardware, paint/coating",
+      "services.service1.scope.supplierCoordination": "Partner with trusted suppliers (Wohnpark Binzen, others), price negotiation, quality assurance",
+      "services.service1.scope.installation": "Professional installation of all components, finishing work, cleanup",
+      "services.service1.scope.timeline": "Typical duration: 6-12 weeks (depends on scope)",
+      "services.service1.scope.priceRange": "Starting CHF 25,000 (varies by scope)",
+      "services.service1.scope.warranty": "Materials & workmanship warranty included",
+      "services.service2.title": "Energy Renovation & Efficiency",
+      "services.service2.problem": "High heating and energy costs | Old building systems that are inefficient | Don't understand what improvements are actually worth it",
+      "services.service2.solution": "Smart energy audits identifying where you're losing money | Right-sized heating systems, insulation, and technology upgrades | Heat meter integration for transparent cost allocation | Solutions that pay for themselves through savings",
+      "services.service2.included": "✓ Energy assessment | ✓ Heating system optimization | ✓ Insulation improvements | ✓ Heat meter installation | ✓ ROI analysis | ✓ Long-term cost control",
+      "services.service2.scope.energyAudit": "Building assessment, thermal imaging, system inspection, efficiency analysis",
+      "services.service2.scope.recommendations": "Priority improvements, cost-benefit analysis, ROI calculations",
+      "services.service2.scope.heatingOptimization": "System design, efficiency upgrades, thermostat installation, control systems",
+      "services.service2.scope.insulation": "Roof insulation, window upgrades, thermal bridge analysis, weatherproofing",
+      "services.service2.scope.heatMeters": "Installation for cost transparency, monitoring setup",
+      "services.service2.scope.materialSelection": "Eco-friendly, high-efficiency options aligned with Swiss standards",
+      "services.service2.scope.installation": "Professional installation, testing, calibration",
+      "services.service2.scope.postProjectSupport": "System optimization, cost tracking, ongoing efficiency recommendations",
+      "services.service2.scope.timeline": "4-16 weeks (depends on scope and complexity)",
+      "services.service2.scope.priceRange": "Starting CHF 15,000 (varies significantly by scope)",
+      "services.service2.scope.savingsPotential": "Typically 20-40% reduction in energy costs",
+      "services.service3.title": "Heating Systems – Design & Installation",
+      "services.service3.problem": "Old heating system breaking down or unreliable | Unclear pricing and installation process | Multi-unit buildings = complex coordination",
+      "services.service3.solution": "Modern heating systems with transparent cost structures | Heat meter installation for individual cost transparency (important for tenants) | Reliable partner coordination (Rosenmund, Rapp) | Seamless installation with minimal disruption",
+      "services.service3.included": "✓ System design | ✓ Professional installation | ✓ Heat meter integration | ✓ Multi-building coordination | ✓ Warranty & support",
+      "services.service3.scope.assessment": "Current system evaluation, capacity analysis, efficiency review",
+      "services.service3.scope.designPlanning": "Modern system selection (Rosenmund, others), layout design, capacity sizing",
+      "services.service3.scope.heatMeterIntegration": "Rapp heat meters, individual unit metering, cost allocation setup",
+      "services.service3.scope.installation": "Professional installation, piping, connections, safety checks",
+      "services.service3.scope.multiUnitCoordination": "Apartment building support, minimal tenant disruption, centralized scheduling",
+      "services.service3.scope.testingCommissioning": "System testing, optimization, performance verification",
+      "services.service3.scope.documentation": "Manuals, warranty info, system controls training",
+      "services.service3.scope.tenantSupport": "Installation for multi-unit buildings, cost transparency education",
+      "services.service3.scope.timeline": "4-12 weeks (depends on building size and complexity)",
+      "services.service3.scope.priceRange": "CHF 15,000-100,000+ (depends on building size and system complexity)",
+      "services.service3.scope.warranty": "Full manufacturer warranty + installation guarantee",
+      "services.service4.problem": "Technology feels overwhelming and expensive | Don't know what's actually useful vs. gimmicky | Worried about compatibility and future-proofing",
+      "services.service4.solution": "Smart home solutions designed for real-world use (not just 'cool gadgets') | Integration with your existing systems | Voice control, automated lighting, heating, and connectivity | Future-proof design that grows with your needs",
+      "services.service4.included": "✓ Smart home design & consultation | ✓ WiFi optimization | ✓ Smart lighting & automation | ✓ Voice control setup | ✓ Integration with heating & appliances | ✓ Ongoing support",
+      "services.service4.scope.consultation": "Needs assessment, technology overview, realistic use cases",
+      "services.service4.scope.wifiConnectivity": "Network assessment, optimization, coverage improvement, security setup",
+      "services.service4.scope.smartLighting": "Installation, automation, voice control integration, scheduling",
+      "services.service4.scope.heatingAutomation": "Smart thermostats, zone control, temperature scheduling, remote access",
+      "services.service4.scope.voiceControl": "Amazon Alexa, Google Home, or similar setup and integration",
+      "services.service4.scope.deviceIntegration": "Smart appliances, blinds, locks, cameras, and compatibility verification",
+      "services.service4.scope.securitySetup": "Network security, encryption, data privacy, safe automation",
+      "services.service4.scope.userTraining": "System walkthrough, app training, troubleshooting basics",
+      "services.service4.scope.ongoingSupport": "Technical support, updates, optimization recommendations",
+      "services.service4.scope.timeline": "1-6 weeks (depends on scope and system complexity)",
+      "services.service4.scope.priceRange": "Starting CHF 5,000 (basic) to CHF 30,000+ (comprehensive)",
+      "services.service4.scope.scalability": "Start small and expand—systems designed for future growth",
+      "services.service5.title": "Project Management & Consulting",
+      "services.service5.highlight": "🎉 FREE Initial Consultation – No obligation, personalized assessment included",
+      "services.service5.problem": "Multiple trades, suppliers, timelines—who coordinates it all? | Risk of delays, budget overruns, quality issues | As an expat, navigating Swiss standards and regulations is confusing",
+      "services.service5.solution": "End-to-end project management from concept to completion | Expert coordination of all trades and suppliers | Cost and timeline control | Navigation of Swiss building codes and local requirements | Your stress-free partner through the entire process",
+      "services.service5.included": "✓ Project planning & scoping | ✓ Supplier & trade coordination | ✓ Timeline & budget management | ✓ Quality assurance | ✓ Swiss code compliance | ✓ Regulatory guidance | ✓ Final acceptance & handover",
+      "services.service5.scope.initialConsultation": "FREE personalized assessment, needs clarification, vision understanding",
+      "services.service5.scope.scopeDefinition": "Project breakdown, budget estimation, timeline planning",
+      "services.service5.scope.supplierTrade": "Vetting, recommendations, contract negotiation",
+      "services.service5.scope.costManagement": "Budget tracking, price optimization, change order handling",
+      "services.service5.scope.timelineManagement": "Scheduling, coordination, progress tracking, delay mitigation",
+      "services.service5.scope.qualityAssurance": "On-site inspections, workmanship verification, issue resolution",
+      "services.service5.scope.swissCompliance": "Building code guidance, regulatory requirements, permit assistance",
+      "services.service5.scope.communication": "Regular updates, German & English support, client liaison",
+      "services.service5.scope.riskManagement": "Issue identification and prevention, problem-solving",
+      "services.service5.scope.handoverAcceptance": "Final walkthrough, punch-list completion, client education",
+      "services.service5.scope.postProjectSupport": "Warranty follow-up, issue resolution, ongoing advice",
+      "services.service5.scope.projectTypes": "Single projects or end-to-end comprehensive renovations",
+      "services.service5.scope.timeline": "Varies (follows project scope)",
+      "services.service5.scope.feeStructure": "Hourly consulting (CHF 80-120/hour) OR Project-based fees",
+      "blog.featuredPost1.topics": "Kitchen modernization, value optimization, avoiding costly mistakes",
+      "blog.featuredPost2.topics": "Expat-focused advice, local market knowledge, practical guidance, reducing stress",
+      "footer.phone": "0762059285"
     }
   }
 }
