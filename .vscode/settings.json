@@ -1,5 +1,27 @@
 {
     "java.compile.nullAnalysis.mode": "automatic",
-    "java.debug.settings.onBuildFailureProceed": true,
-    "java.configuration.updateBuildConfiguration": "automatic"
+    "java.debug.settings.onBuildFailureProceed": false,
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.import.exclusions": ["**/alt/**", "**/node_modules/**", "**/target/**", "**/.git/**"],
+    "maven.executable.preferMavenWrapper": true,
+    "typescript.tsdk": "My-App_Frontend/node_modules/typescript/lib",
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "eslint.workingDirectories": [{ "directory": "My-App_Frontend", "changeProcessCWD": true }],
+    "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+    "files.associations": {
+        "*.tsx": "typescriptreact",
+        "*.jsx": "javascriptreact"
+    },
+    "files.watcherExclude": {
+        "**/node_modules/**": true,
+        "**/target/**": true,
+        "**/dist/**": true,
+        "**/alt/**": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/target": true,
+        "**/dist": true,
+        "alt": true
+    }
 }

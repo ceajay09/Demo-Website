@@ -7,6 +7,14 @@
       "request": "launch",
       "mainClass": "com.example.myproject.Application",
       "vmArgs": "-Dspring.profiles.active=dev"
+    },
+    {
+      "type": "pwa-chrome",
+      "name": "Frontend: Chrome (local)",
+      "request": "launch",
+      "url": "http://localhost:5173",
+      "webRoot": "${workspaceFolder}/My-App_Frontend",
+      "preLaunchTask": "Frontend: npm starten"
     }
   ]
 }
